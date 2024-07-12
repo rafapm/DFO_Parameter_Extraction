@@ -1,0 +1,3428 @@
+LINK MODEL "diode" "770.004"
+{
+View model_window 1 "Model"
+TABLE "Variable Table" "770.004"
+{
+View par_var_table 0 "V530 P12 C10 C10 C10"
+element 0 "Name" "SIMULATOR"
+element 0 "Value" "spice3"
+element 1 "Name" "TNOM"
+element 1 "Value" "27.0"
+element 2 "Name" ""
+element 2 "Value" ""
+}
+TABLE "GUI Table" "770.004"
+{
+element 0 "Name" ""
+element 0 "Value" ""
+}
+TABLE "Plot Options" "770.004"
+{
+TABLE "Trace Settings" "770.004"
+{
+element 0 "Name" "Data 0"
+element 0 "On White" "1" "A"
+element 0 "On Black" "1" "A"
+element 0 "Symbol" "Square" "A"
+element 0 "Measured" "Default" "A"
+element 0 "Simulated" "Default" "A"
+element 1 "Name" "Data 1"
+element 1 "On White" "5" "A"
+element 1 "On Black" "2" "A"
+element 1 "Symbol" "Triangle" "A"
+element 1 "Measured" "Default" "A"
+element 1 "Simulated" "Default" "A"
+element 2 "Name" "Data 2"
+element 2 "On White" "6" "A"
+element 2 "On Black" "6" "A"
+element 2 "Symbol" "Diamond" "A"
+element 2 "Measured" "Default" "A"
+element 2 "Simulated" "Default" "A"
+element 3 "Name" "Data 3"
+element 3 "On White" "3" "A"
+element 3 "On Black" "3" "A"
+element 3 "Symbol" "Circle" "A"
+element 3 "Measured" "Default" "A"
+element 3 "Simulated" "Default" "A"
+element 4 "Name" "Data 4"
+element 4 "On White" "88" "A"
+element 4 "On Black" "88" "A"
+element 4 "Symbol" "Cross" "A"
+element 4 "Measured" "Default" "A"
+element 4 "Simulated" "Default" "A"
+element 5 "Name" "Data 5"
+element 5 "On White" "4" "A"
+element 5 "On Black" "4" "A"
+element 5 "Symbol" "X" "A"
+element 5 "Measured" "Default" "A"
+element 5 "Simulated" "Default" "A"
+element 6 "Name" "Data 6"
+element 6 "On White" "25" "A"
+element 6 "On Black" "117" "A"
+element 6 "Symbol" "Square" "A"
+element 6 "Measured" "Default" "A"
+element 6 "Simulated" "Default" "A"
+element 7 "Name" "Data 7"
+element 7 "On White" "40" "A"
+element 7 "On Black" "40" "A"
+element 7 "Symbol" "Square" "A"
+element 7 "Measured" "Default" "A"
+element 7 "Simulated" "Default" "A"
+element 8 "Name" "Y2 Data"
+element 8 "On White" "28" "A"
+element 8 "On Black" "28" "A"
+element 8 "Symbol" "Square" "A"
+element 8 "Measured" "Default" "A"
+element 8 "Simulated" "Default" "A"
+element 9 "Name" "Data 8"
+element 9 "On White" "114" "A"
+element 9 "On Black" "114" "A"
+element 9 "Symbol" "Square" "A"
+element 9 "Measured" "Default" "A"
+element 9 "Simulated" "Default" "A"
+element 10 "Name" "Data 9"
+element 10 "On White" "14" "A"
+element 10 "On Black" "94" "A"
+element 10 "Symbol" "Square" "A"
+element 10 "Measured" "Default" "A"
+element 10 "Simulated" "Default" "A"
+element 11 "Name" "Data 10"
+element 11 "On White" "23" "A"
+element 11 "On Black" "81" "A"
+element 11 "Symbol" "Square" "A"
+element 11 "Measured" "Default" "A"
+element 11 "Simulated" "Default" "A"
+element 12 "Name" "Data 11"
+element 12 "On White" "102" "A"
+element 12 "On Black" "50" "A"
+element 12 "Symbol" "Square" "A"
+element 12 "Measured" "Default" "A"
+element 12 "Simulated" "Default" "A"
+element 13 "Name" "Data 12"
+element 13 "On White" "27" "A"
+element 13 "On Black" "115" "A"
+element 13 "Symbol" "Square" "A"
+element 13 "Measured" "Default" "A"
+element 13 "Simulated" "Default" "A"
+element 14 "Name" "Data 13"
+element 14 "On White" "54" "A"
+element 14 "On Black" "54" "A"
+element 14 "Symbol" "Square" "A"
+element 14 "Measured" "Default" "A"
+element 14 "Simulated" "Default" "A"
+element 15 "Name" "Data 14"
+element 15 "On White" "106" "A"
+element 15 "On Black" "106" "A"
+element 15 "Symbol" "Square" "A"
+element 15 "Measured" "Default" "A"
+element 15 "Simulated" "Default" "A"
+element 16 "Name" "Data 15"
+element 16 "On White" "120" "A"
+element 16 "On Black" "120" "A"
+element 16 "Symbol" "Square" "A"
+element 16 "Measured" "Default" "A"
+element 16 "Simulated" "Default" "A"
+element 17 "Name" "Data 16"
+element 17 "On White" "87" "A"
+element 17 "On Black" "87" "A"
+element 17 "Symbol" "Square" "A"
+element 17 "Measured" "Default" "A"
+element 17 "Simulated" "Default" "A"
+element 18 "Name" "Data 17"
+element 18 "On White" "29" "A"
+element 18 "On Black" "79" "A"
+element 18 "Symbol" "Square" "A"
+element 18 "Measured" "Default" "A"
+element 18 "Simulated" "Default" "A"
+element 19 "Name" "Data 18"
+element 19 "On White" "81" "A"
+element 19 "On Black" "81" "A"
+element 19 "Symbol" "Square" "A"
+element 19 "Measured" "Default" "A"
+element 19 "Simulated" "Default" "A"
+element 20 "Name" "Data 19"
+element 20 "On White" "1" "A"
+element 20 "On Black" "1" "A"
+element 20 "Symbol" "Circle" "A"
+element 20 "Measured" "Default" "A"
+element 20 "Simulated" "Dot Line" "A"
+element 21 "Name" "Data 20"
+element 21 "On White" "5" "A"
+element 21 "On Black" "2" "A"
+element 21 "Symbol" "Reverse Triangle" "A"
+element 21 "Measured" "Default" "A"
+element 21 "Simulated" "Dot Line" "A"
+element 22 "Name" "Data 21"
+element 22 "On White" "6" "A"
+element 22 "On Black" "6" "A"
+element 22 "Symbol" "Star" "A"
+element 22 "Measured" "Default" "A"
+element 22 "Simulated" "Dot Line" "A"
+element 23 "Name" "Data 22"
+element 23 "On White" "3" "A"
+element 23 "On Black" "3" "A"
+element 23 "Symbol" "Triangle" "A"
+element 23 "Measured" "Default" "A"
+element 23 "Simulated" "Dot Line" "A"
+element 24 "Name" "Data 23"
+element 24 "On White" "88" "A"
+element 24 "On Black" "88" "A"
+element 24 "Symbol" "Square" "A"
+element 24 "Measured" "Default" "A"
+element 24 "Simulated" "Dot Line" "A"
+element 25 "Name" "Data 24"
+element 25 "On White" "4" "A"
+element 25 "On Black" "4" "A"
+element 25 "Symbol" "Cross" "A"
+element 25 "Measured" "Default" "A"
+element 25 "Simulated" "Dot Line" "A"
+element 26 "Name" "Data 25"
+element 26 "On White" "25" "A"
+element 26 "On Black" "117" "A"
+element 26 "Symbol" "Circle" "A"
+element 26 "Measured" "Default" "A"
+element 26 "Simulated" "Dot Line" "A"
+element 27 "Name" "Data 26"
+element 27 "On White" "40" "A"
+element 27 "On Black" "40" "A"
+element 27 "Symbol" "Circle" "A"
+element 27 "Measured" "Default" "A"
+element 27 "Simulated" "Dot Line" "A"
+element 28 "Name" "Data 27"
+element 28 "On White" "28" "A"
+element 28 "On Black" "28" "A"
+element 28 "Symbol" "Circle" "A"
+element 28 "Measured" "Default" "A"
+element 28 "Simulated" "Dot Line" "A"
+element 29 "Name" "Data 28"
+element 29 "On White" "114" "A"
+element 29 "On Black" "114" "A"
+element 29 "Symbol" "Circle" "A"
+element 29 "Measured" "Default" "A"
+element 29 "Simulated" "Dot Line" "A"
+element 30 "Name" "Data 29"
+element 30 "On White" "14" "A"
+element 30 "On Black" "94" "A"
+element 30 "Symbol" "Circle" "A"
+element 30 "Measured" "Default" "A"
+element 30 "Simulated" "Dot Line" "A"
+element 31 "Name" "Data 30"
+element 31 "On White" "23" "A"
+element 31 "On Black" "81" "A"
+element 31 "Symbol" "Circle" "A"
+element 31 "Measured" "Default" "A"
+element 31 "Simulated" "Dot Line" "A"
+element 32 "Name" "Data 31"
+element 32 "On White" "102" "A"
+element 32 "On Black" "50" "A"
+element 32 "Symbol" "Circle" "A"
+element 32 "Measured" "Default" "A"
+element 32 "Simulated" "Dot Line" "A"
+element 33 "Name" "Data 32"
+element 33 "On White" "27" "A"
+element 33 "On Black" "115" "A"
+element 33 "Symbol" "Circle" "A"
+element 33 "Measured" "Default" "A"
+element 33 "Simulated" "Dot Line" "A"
+element 34 "Name" "Data 33"
+element 34 "On White" "54" "A"
+element 34 "On Black" "54" "A"
+element 34 "Symbol" "Circle" "A"
+element 34 "Measured" "Default" "A"
+element 34 "Simulated" "Dot Line" "A"
+element 35 "Name" "Data 34"
+element 35 "On White" "106" "A"
+element 35 "On Black" "106" "A"
+element 35 "Symbol" "Circle" "A"
+element 35 "Measured" "Default" "A"
+element 35 "Simulated" "Dot Line" "A"
+element 36 "Name" "Data 35"
+element 36 "On White" "120" "A"
+element 36 "On Black" "120" "A"
+element 36 "Symbol" "Circle" "A"
+element 36 "Measured" "Default" "A"
+element 36 "Simulated" "Dot Line" "A"
+element 37 "Name" "Data 36"
+element 37 "On White" "87" "A"
+element 37 "On Black" "87" "A"
+element 37 "Symbol" "Circle" "A"
+element 37 "Measured" "Default" "A"
+element 37 "Simulated" "Dot Line" "A"
+element 38 "Name" "Data 37"
+element 38 "On White" "29" "A"
+element 38 "On Black" "79" "A"
+element 38 "Symbol" "Circle" "A"
+element 38 "Measured" "Default" "A"
+element 38 "Simulated" "Dot Line" "A"
+element 39 "Name" "Data 38"
+element 39 "On White" "81" "A"
+element 39 "On Black" "81" "A"
+element 39 "Symbol" "Circle" "A"
+element 39 "Measured" "Default" "A"
+element 39 "Simulated" "Dot Line" "A"
+element 40 "Name" "Data 39"
+element 40 "On White" "1" "A"
+element 40 "On Black" "1" "A"
+element 40 "Symbol" "Triangle" "A"
+element 40 "Measured" "Default" "A"
+element 40 "Simulated" "Dot Dot Line" "A"
+element 41 "Name" "Data 40"
+element 41 "On White" "5" "A"
+element 41 "On Black" "2" "A"
+element 41 "Symbol" "Diamond" "A"
+element 41 "Measured" "Default" "A"
+element 41 "Simulated" "Dot Dot Line" "A"
+element 42 "Name" "Data 41"
+element 42 "On White" "6" "A"
+element 42 "On Black" "6" "A"
+element 42 "Symbol" "X" "A"
+element 42 "Measured" "Default" "A"
+element 42 "Simulated" "Dot Dot Line" "A"
+element 43 "Name" "Data 42"
+element 43 "On White" "3" "A"
+element 43 "On Black" "3" "A"
+element 43 "Symbol" "Reverse Triangle" "A"
+element 43 "Measured" "Default" "A"
+element 43 "Simulated" "Dot Dot Line" "A"
+element 44 "Name" "Data 43"
+element 44 "On White" "88" "A"
+element 44 "On Black" "88" "A"
+element 44 "Symbol" "Circle" "A"
+element 44 "Measured" "Default" "A"
+element 44 "Simulated" "Dot Dot Line" "A"
+element 45 "Name" "Data 44"
+element 45 "On White" "4" "A"
+element 45 "On Black" "4" "A"
+element 45 "Symbol" "Square" "A"
+element 45 "Measured" "Default" "A"
+element 45 "Simulated" "Dot Dot Line" "A"
+element 46 "Name" "Data 45"
+element 46 "On White" "25" "A"
+element 46 "On Black" "117" "A"
+element 46 "Symbol" "Triangle" "A"
+element 46 "Measured" "Default" "A"
+element 46 "Simulated" "Dot Dot Line" "A"
+element 47 "Name" "Data 46"
+element 47 "On White" "40" "A"
+element 47 "On Black" "40" "A"
+element 47 "Symbol" "Triangle" "A"
+element 47 "Measured" "Default" "A"
+element 47 "Simulated" "Dot Dot Line" "A"
+element 48 "Name" "Data 47"
+element 48 "On White" "28" "A"
+element 48 "On Black" "28" "A"
+element 48 "Symbol" "Triangle" "A"
+element 48 "Measured" "Default" "A"
+element 48 "Simulated" "Dot Dot Line" "A"
+element 49 "Name" "Data 48"
+element 49 "On White" "114" "A"
+element 49 "On Black" "114" "A"
+element 49 "Symbol" "Triangle" "A"
+element 49 "Measured" "Default" "A"
+element 49 "Simulated" "Dot Dot Line" "A"
+element 50 "Name" "Data 49"
+element 50 "On White" "14" "A"
+element 50 "On Black" "94" "A"
+element 50 "Symbol" "Triangle" "A"
+element 50 "Measured" "Default" "A"
+element 50 "Simulated" "Dot Dot Line" "A"
+element 51 "Name" "Data 50"
+element 51 "On White" "23" "A"
+element 51 "On Black" "81" "A"
+element 51 "Symbol" "Triangle" "A"
+element 51 "Measured" "Default" "A"
+element 51 "Simulated" "Dot Dot Line" "A"
+element 52 "Name" "Data 51"
+element 52 "On White" "102" "A"
+element 52 "On Black" "50" "A"
+element 52 "Symbol" "Triangle" "A"
+element 52 "Measured" "Default" "A"
+element 52 "Simulated" "Dot Dot Line" "A"
+element 53 "Name" "Data 52"
+element 53 "On White" "27" "A"
+element 53 "On Black" "115" "A"
+element 53 "Symbol" "Triangle" "A"
+element 53 "Measured" "Default" "A"
+element 53 "Simulated" "Dot Dot Line" "A"
+element 54 "Name" "Data 53"
+element 54 "On White" "54" "A"
+element 54 "On Black" "54" "A"
+element 54 "Symbol" "Triangle" "A"
+element 54 "Measured" "Default" "A"
+element 54 "Simulated" "Dot Dot Line" "A"
+element 55 "Name" "Data 54"
+element 55 "On White" "106" "A"
+element 55 "On Black" "106" "A"
+element 55 "Symbol" "Triangle" "A"
+element 55 "Measured" "Default" "A"
+element 55 "Simulated" "Dot Dot Line" "A"
+element 56 "Name" "Data 55"
+element 56 "On White" "120" "A"
+element 56 "On Black" "120" "A"
+element 56 "Symbol" "Triangle" "A"
+element 56 "Measured" "Default" "A"
+element 56 "Simulated" "Dot Dot Line" "A"
+element 57 "Name" "Data 56"
+element 57 "On White" "87" "A"
+element 57 "On Black" "87" "A"
+element 57 "Symbol" "Triangle" "A"
+element 57 "Measured" "Default" "A"
+element 57 "Simulated" "Dot Dot Line" "A"
+element 58 "Name" "Data 57"
+element 58 "On White" "29" "A"
+element 58 "On Black" "79" "A"
+element 58 "Symbol" "Triangle" "A"
+element 58 "Measured" "Default" "A"
+element 58 "Simulated" "Dot Dot Line" "A"
+element 59 "Name" "Data 58"
+element 59 "On White" "81" "A"
+element 59 "On Black" "81" "A"
+element 59 "Symbol" "Triangle" "A"
+element 59 "Measured" "Default" "A"
+element 59 "Simulated" "Dot Dot Line" "A"
+element 60 "Name" "Data 59"
+element 60 "On White" "1" "A"
+element 60 "On Black" "1" "A"
+element 60 "Symbol" "Reverse Triangle" "A"
+element 60 "Measured" "Default" "A"
+element 60 "Simulated" "Dashed Line" "A"
+element 61 "Name" "Data 60"
+element 61 "On White" "5" "A"
+element 61 "On Black" "2" "A"
+element 61 "Symbol" "Star" "A"
+element 61 "Measured" "Default" "A"
+element 61 "Simulated" "Dashed Line" "A"
+element 62 "Name" "Data 61"
+element 62 "On White" "6" "A"
+element 62 "On Black" "6" "A"
+element 62 "Symbol" "Cross" "A"
+element 62 "Measured" "Default" "A"
+element 62 "Simulated" "Dashed Line" "A"
+element 63 "Name" "Data 62"
+element 63 "On White" "3" "A"
+element 63 "On Black" "3" "A"
+element 63 "Symbol" "Diamond" "A"
+element 63 "Measured" "Default" "A"
+element 63 "Simulated" "Dashed Line" "A"
+element 64 "Name" "Data 63"
+element 64 "On White" "88" "A"
+element 64 "On Black" "88" "A"
+element 64 "Symbol" "Triangle" "A"
+element 64 "Measured" "Default" "A"
+element 64 "Simulated" "Dashed Line" "A"
+element 65 "Name" "Data 64"
+element 65 "On White" "4" "A"
+element 65 "On Black" "4" "A"
+element 65 "Symbol" "Circle" "A"
+element 65 "Measured" "Default" "A"
+element 65 "Simulated" "Dashed Line" "A"
+element 66 "Name" "Data 65"
+element 66 "On White" "25" "A"
+element 66 "On Black" "117" "A"
+element 66 "Symbol" "Reverse Triangle" "A"
+element 66 "Measured" "Default" "A"
+element 66 "Simulated" "Dashed Line" "A"
+element 67 "Name" "Data 66"
+element 67 "On White" "40" "A"
+element 67 "On Black" "40" "A"
+element 67 "Symbol" "Reverse Triangle" "A"
+element 67 "Measured" "Default" "A"
+element 67 "Simulated" "Dashed Line" "A"
+element 68 "Name" "Data 67"
+element 68 "On White" "28" "A"
+element 68 "On Black" "28" "A"
+element 68 "Symbol" "Reverse Triangle" "A"
+element 68 "Measured" "Default" "A"
+element 68 "Simulated" "Dashed Line" "A"
+element 69 "Name" "Data 68"
+element 69 "On White" "114" "A"
+element 69 "On Black" "114" "A"
+element 69 "Symbol" "Reverse Triangle" "A"
+element 69 "Measured" "Default" "A"
+element 69 "Simulated" "Dashed Line" "A"
+element 70 "Name" "Data 69"
+element 70 "On White" "14" "A"
+element 70 "On Black" "94" "A"
+element 70 "Symbol" "Reverse Triangle" "A"
+element 70 "Measured" "Default" "A"
+element 70 "Simulated" "Dashed Line" "A"
+element 71 "Name" "Data 70"
+element 71 "On White" "23" "A"
+element 71 "On Black" "81" "A"
+element 71 "Symbol" "Reverse Triangle" "A"
+element 71 "Measured" "Default" "A"
+element 71 "Simulated" "Dashed Line" "A"
+element 72 "Name" "Data 71"
+element 72 "On White" "102" "A"
+element 72 "On Black" "50" "A"
+element 72 "Symbol" "Reverse Triangle" "A"
+element 72 "Measured" "Default" "A"
+element 72 "Simulated" "Dashed Line" "A"
+element 73 "Name" "Data 72"
+element 73 "On White" "27" "A"
+element 73 "On Black" "115" "A"
+element 73 "Symbol" "Reverse Triangle" "A"
+element 73 "Measured" "Default" "A"
+element 73 "Simulated" "Dashed Line" "A"
+element 74 "Name" "Data 73"
+element 74 "On White" "54" "A"
+element 74 "On Black" "54" "A"
+element 74 "Symbol" "Reverse Triangle" "A"
+element 74 "Measured" "Default" "A"
+element 74 "Simulated" "Dashed Line" "A"
+element 75 "Name" "Data 74"
+element 75 "On White" "106" "A"
+element 75 "On Black" "106" "A"
+element 75 "Symbol" "Reverse Triangle" "A"
+element 75 "Measured" "Default" "A"
+element 75 "Simulated" "Dashed Line" "A"
+element 76 "Name" "Data 75"
+element 76 "On White" "120" "A"
+element 76 "On Black" "120" "A"
+element 76 "Symbol" "Reverse Triangle" "A"
+element 76 "Measured" "Default" "A"
+element 76 "Simulated" "Dashed Line" "A"
+element 77 "Name" "Data 76"
+element 77 "On White" "87" "A"
+element 77 "On Black" "87" "A"
+element 77 "Symbol" "Reverse Triangle" "A"
+element 77 "Measured" "Default" "A"
+element 77 "Simulated" "Dashed Line" "A"
+element 78 "Name" "Data 77"
+element 78 "On White" "29" "A"
+element 78 "On Black" "79" "A"
+element 78 "Symbol" "Reverse Triangle" "A"
+element 78 "Measured" "Default" "A"
+element 78 "Simulated" "Dashed Line" "A"
+element 79 "Name" "Data 78"
+element 79 "On White" "81" "A"
+element 79 "On Black" "81" "A"
+element 79 "Symbol" "Reverse Triangle" "A"
+element 79 "Measured" "Default" "A"
+element 79 "Simulated" "Dashed Line" "A"
+element 80 "Name" "Data 79"
+element 80 "On White" "1" "A"
+element 80 "On Black" "1" "A"
+element 80 "Symbol" "Diamond" "A"
+element 80 "Measured" "Default" "A"
+element 80 "Simulated" "Dot Dashed Line" "A"
+element 81 "Name" "Data 80"
+element 81 "On White" "5" "A"
+element 81 "On Black" "2" "A"
+element 81 "Symbol" "X" "A"
+element 81 "Measured" "Default" "A"
+element 81 "Simulated" "Dot Dashed Line" "A"
+element 82 "Name" "Data 81"
+element 82 "On White" "6" "A"
+element 82 "On Black" "6" "A"
+element 82 "Symbol" "Square" "A"
+element 82 "Measured" "Default" "A"
+element 82 "Simulated" "Dot Dashed Line" "A"
+element 83 "Name" "Data 82"
+element 83 "On White" "3" "A"
+element 83 "On Black" "3" "A"
+element 83 "Symbol" "Star" "A"
+element 83 "Measured" "Default" "A"
+element 83 "Simulated" "Dot Dashed Line" "A"
+element 84 "Name" "Data 83"
+element 84 "On White" "88" "A"
+element 84 "On Black" "88" "A"
+element 84 "Symbol" "Reverse Triangle" "A"
+element 84 "Measured" "Default" "A"
+element 84 "Simulated" "Dot Dashed Line" "A"
+element 85 "Name" "Data 84"
+element 85 "On White" "4" "A"
+element 85 "On Black" "4" "A"
+element 85 "Symbol" "Triangle" "A"
+element 85 "Measured" "Default" "A"
+element 85 "Simulated" "Dot Dashed Line" "A"
+element 86 "Name" "Data 85"
+element 86 "On White" "25" "A"
+element 86 "On Black" "117" "A"
+element 86 "Symbol" "Diamond" "A"
+element 86 "Measured" "Default" "A"
+element 86 "Simulated" "Dot Dashed Line" "A"
+element 87 "Name" "Data 86"
+element 87 "On White" "40" "A"
+element 87 "On Black" "40" "A"
+element 87 "Symbol" "Diamond" "A"
+element 87 "Measured" "Default" "A"
+element 87 "Simulated" "Dot Dashed Line" "A"
+element 88 "Name" "Data 87"
+element 88 "On White" "28" "A"
+element 88 "On Black" "28" "A"
+element 88 "Symbol" "Diamond" "A"
+element 88 "Measured" "Default" "A"
+element 88 "Simulated" "Dot Dashed Line" "A"
+element 89 "Name" "Data 88"
+element 89 "On White" "114" "A"
+element 89 "On Black" "114" "A"
+element 89 "Symbol" "Diamond" "A"
+element 89 "Measured" "Default" "A"
+element 89 "Simulated" "Dot Dashed Line" "A"
+element 90 "Name" "Data 89"
+element 90 "On White" "14" "A"
+element 90 "On Black" "94" "A"
+element 90 "Symbol" "Diamond" "A"
+element 90 "Measured" "Default" "A"
+element 90 "Simulated" "Dot Dashed Line" "A"
+element 91 "Name" "Data 90"
+element 91 "On White" "23" "A"
+element 91 "On Black" "81" "A"
+element 91 "Symbol" "Diamond" "A"
+element 91 "Measured" "Default" "A"
+element 91 "Simulated" "Dot Dashed Line" "A"
+element 92 "Name" "Data 91"
+element 92 "On White" "102" "A"
+element 92 "On Black" "50" "A"
+element 92 "Symbol" "Diamond" "A"
+element 92 "Measured" "Default" "A"
+element 92 "Simulated" "Dot Dashed Line" "A"
+element 93 "Name" "Data 92"
+element 93 "On White" "27" "A"
+element 93 "On Black" "115" "A"
+element 93 "Symbol" "Diamond" "A"
+element 93 "Measured" "Default" "A"
+element 93 "Simulated" "Dot Dashed Line" "A"
+element 94 "Name" "Data 93"
+element 94 "On White" "54" "A"
+element 94 "On Black" "54" "A"
+element 94 "Symbol" "Diamond" "A"
+element 94 "Measured" "Default" "A"
+element 94 "Simulated" "Dot Dashed Line" "A"
+element 95 "Name" "Data 94"
+element 95 "On White" "106" "A"
+element 95 "On Black" "106" "A"
+element 95 "Symbol" "Diamond" "A"
+element 95 "Measured" "Default" "A"
+element 95 "Simulated" "Dot Dashed Line" "A"
+element 96 "Name" "Data 95"
+element 96 "On White" "120" "A"
+element 96 "On Black" "120" "A"
+element 96 "Symbol" "Diamond" "A"
+element 96 "Measured" "Default" "A"
+element 96 "Simulated" "Dot Dashed Line" "A"
+element 97 "Name" "Data 96"
+element 97 "On White" "87" "A"
+element 97 "On Black" "87" "A"
+element 97 "Symbol" "Diamond" "A"
+element 97 "Measured" "Default" "A"
+element 97 "Simulated" "Dot Dashed Line" "A"
+element 98 "Name" "Data 97"
+element 98 "On White" "29" "A"
+element 98 "On Black" "79" "A"
+element 98 "Symbol" "Diamond" "A"
+element 98 "Measured" "Default" "A"
+element 98 "Simulated" "Dot Dashed Line" "A"
+element 99 "Name" "Data 98"
+element 99 "On White" "81" "A"
+element 99 "On Black" "81" "A"
+element 99 "Symbol" "Diamond" "A"
+element 99 "Measured" "Default" "A"
+element 99 "Simulated" "Dot Dashed Line" "A"
+element 100 "Name" "Data 99"
+element 100 "On White" "1" "A"
+element 100 "On Black" "1" "A"
+element 100 "Symbol" "Star" "A"
+element 100 "Measured" "Default" "A"
+element 100 "Simulated" "Long Dashed Line" "A"
+element 101 "Name" "Data 100"
+element 101 "On White" "5" "A"
+element 101 "On Black" "2" "A"
+element 101 "Symbol" "Cross" "A"
+element 101 "Measured" "Default" "A"
+element 101 "Simulated" "Long Dashed Line" "A"
+element 102 "Name" "Data 101"
+element 102 "On White" "6" "A"
+element 102 "On Black" "6" "A"
+element 102 "Symbol" "Circle" "A"
+element 102 "Measured" "Default" "A"
+element 102 "Simulated" "Long Dashed Line" "A"
+element 103 "Name" "Data 102"
+element 103 "On White" "3" "A"
+element 103 "On Black" "3" "A"
+element 103 "Symbol" "X" "A"
+element 103 "Measured" "Default" "A"
+element 103 "Simulated" "Long Dashed Line" "A"
+element 104 "Name" "Data 103"
+element 104 "On White" "88" "A"
+element 104 "On Black" "88" "A"
+element 104 "Symbol" "Diamond" "A"
+element 104 "Measured" "Default" "A"
+element 104 "Simulated" "Long Dashed Line" "A"
+element 105 "Name" "Data 104"
+element 105 "On White" "4" "A"
+element 105 "On Black" "4" "A"
+element 105 "Symbol" "Reverse Triangle" "A"
+element 105 "Measured" "Default" "A"
+element 105 "Simulated" "Long Dashed Line" "A"
+element 106 "Name" "Data 105"
+element 106 "On White" "25" "A"
+element 106 "On Black" "117" "A"
+element 106 "Symbol" "Star" "A"
+element 106 "Measured" "Default" "A"
+element 106 "Simulated" "Long Dashed Line" "A"
+element 107 "Name" "Data 106"
+element 107 "On White" "40" "A"
+element 107 "On Black" "40" "A"
+element 107 "Symbol" "Star" "A"
+element 107 "Measured" "Default" "A"
+element 107 "Simulated" "Long Dashed Line" "A"
+element 108 "Name" "Data 107"
+element 108 "On White" "28" "A"
+element 108 "On Black" "28" "A"
+element 108 "Symbol" "Star" "A"
+element 108 "Measured" "Default" "A"
+element 108 "Simulated" "Long Dashed Line" "A"
+element 109 "Name" "Data 108"
+element 109 "On White" "114" "A"
+element 109 "On Black" "114" "A"
+element 109 "Symbol" "Star" "A"
+element 109 "Measured" "Default" "A"
+element 109 "Simulated" "Long Dashed Line" "A"
+element 110 "Name" "Data 109"
+element 110 "On White" "14" "A"
+element 110 "On Black" "94" "A"
+element 110 "Symbol" "Star" "A"
+element 110 "Measured" "Default" "A"
+element 110 "Simulated" "Long Dashed Line" "A"
+element 111 "Name" "Data 110"
+element 111 "On White" "23" "A"
+element 111 "On Black" "81" "A"
+element 111 "Symbol" "Star" "A"
+element 111 "Measured" "Default" "A"
+element 111 "Simulated" "Long Dashed Line" "A"
+element 112 "Name" "Data 111"
+element 112 "On White" "102" "A"
+element 112 "On Black" "50" "A"
+element 112 "Symbol" "Star" "A"
+element 112 "Measured" "Default" "A"
+element 112 "Simulated" "Long Dashed Line" "A"
+element 113 "Name" "Data 112"
+element 113 "On White" "27" "A"
+element 113 "On Black" "115" "A"
+element 113 "Symbol" "Star" "A"
+element 113 "Measured" "Default" "A"
+element 113 "Simulated" "Long Dashed Line" "A"
+element 114 "Name" "Data 113"
+element 114 "On White" "54" "A"
+element 114 "On Black" "54" "A"
+element 114 "Symbol" "Star" "A"
+element 114 "Measured" "Default" "A"
+element 114 "Simulated" "Long Dashed Line" "A"
+element 115 "Name" "Data 114"
+element 115 "On White" "106" "A"
+element 115 "On Black" "106" "A"
+element 115 "Symbol" "Star" "A"
+element 115 "Measured" "Default" "A"
+element 115 "Simulated" "Long Dashed Line" "A"
+element 116 "Name" "Data 115"
+element 116 "On White" "120" "A"
+element 116 "On Black" "120" "A"
+element 116 "Symbol" "Star" "A"
+element 116 "Measured" "Default" "A"
+element 116 "Simulated" "Long Dashed Line" "A"
+element 117 "Name" "Data 116"
+element 117 "On White" "87" "A"
+element 117 "On Black" "87" "A"
+element 117 "Symbol" "Star" "A"
+element 117 "Measured" "Default" "A"
+element 117 "Simulated" "Long Dashed Line" "A"
+element 118 "Name" "Data 117"
+element 118 "On White" "29" "A"
+element 118 "On Black" "79" "A"
+element 118 "Symbol" "Star" "A"
+element 118 "Measured" "Default" "A"
+element 118 "Simulated" "Long Dashed Line" "A"
+element 119 "Name" "Data 118"
+element 119 "On White" "81" "A"
+element 119 "On Black" "81" "A"
+element 119 "Symbol" "Star" "A"
+element 119 "Measured" "Default" "A"
+element 119 "Simulated" "Long Dashed Line" "A"
+element 120 "Name" "Data 119"
+element 120 "On White" "1" "A"
+element 120 "On Black" "1" "A"
+element 120 "Symbol" "X" "A"
+element 120 "Measured" "Default" "A"
+element 120 "Simulated" "Long Dot Dashed Line" "A"
+element 121 "Name" "Data 120"
+element 121 "On White" "5" "A"
+element 121 "On Black" "2" "A"
+element 121 "Symbol" "Square" "A"
+element 121 "Measured" "Default" "A"
+element 121 "Simulated" "Long Dot Dashed Line" "A"
+element 122 "Name" "Data 121"
+element 122 "On White" "6" "A"
+element 122 "On Black" "6" "A"
+element 122 "Symbol" "Triangle" "A"
+element 122 "Measured" "Default" "A"
+element 122 "Simulated" "Long Dot Dashed Line" "A"
+element 123 "Name" "Data 122"
+element 123 "On White" "3" "A"
+element 123 "On Black" "3" "A"
+element 123 "Symbol" "Cross" "A"
+element 123 "Measured" "Default" "A"
+element 123 "Simulated" "Long Dot Dashed Line" "A"
+element 124 "Name" "Data 123"
+element 124 "On White" "88" "A"
+element 124 "On Black" "88" "A"
+element 124 "Symbol" "Star" "A"
+element 124 "Measured" "Default" "A"
+element 124 "Simulated" "Long Dot Dashed Line" "A"
+element 125 "Name" "Data 124"
+element 125 "On White" "4" "A"
+element 125 "On Black" "4" "A"
+element 125 "Symbol" "Diamond" "A"
+element 125 "Measured" "Default" "A"
+element 125 "Simulated" "Long Dot Dashed Line" "A"
+element 126 "Name" "Data 125"
+element 126 "On White" "25" "A"
+element 126 "On Black" "117" "A"
+element 126 "Symbol" "X" "A"
+element 126 "Measured" "Default" "A"
+element 126 "Simulated" "Long Dot Dashed Line" "A"
+element 127 "Name" "Data 126"
+element 127 "On White" "40" "A"
+element 127 "On Black" "40" "A"
+element 127 "Symbol" "X" "A"
+element 127 "Measured" "Default" "A"
+element 127 "Simulated" "Long Dot Dashed Line" "A"
+element 128 "Name" "Data 127"
+element 128 "On White" "28" "A"
+element 128 "On Black" "28" "A"
+element 128 "Symbol" "X" "A"
+element 128 "Measured" "Default" "A"
+element 128 "Simulated" "Long Dot Dashed Line" "A"
+element 129 "Name" "Data 128"
+element 129 "On White" "114" "A"
+element 129 "On Black" "114" "A"
+element 129 "Symbol" "X" "A"
+element 129 "Measured" "Default" "A"
+element 129 "Simulated" "Long Dot Dashed Line" "A"
+element 130 "Name" "Data 129"
+element 130 "On White" "14" "A"
+element 130 "On Black" "94" "A"
+element 130 "Symbol" "X" "A"
+element 130 "Measured" "Default" "A"
+element 130 "Simulated" "Long Dot Dashed Line" "A"
+element 131 "Name" "Data 130"
+element 131 "On White" "23" "A"
+element 131 "On Black" "81" "A"
+element 131 "Symbol" "X" "A"
+element 131 "Measured" "Default" "A"
+element 131 "Simulated" "Long Dot Dashed Line" "A"
+element 132 "Name" "Data 131"
+element 132 "On White" "102" "A"
+element 132 "On Black" "50" "A"
+element 132 "Symbol" "X" "A"
+element 132 "Measured" "Default" "A"
+element 132 "Simulated" "Long Dot Dashed Line" "A"
+element 133 "Name" "Data 132"
+element 133 "On White" "27" "A"
+element 133 "On Black" "115" "A"
+element 133 "Symbol" "X" "A"
+element 133 "Measured" "Default" "A"
+element 133 "Simulated" "Long Dot Dashed Line" "A"
+element 134 "Name" "Data 133"
+element 134 "On White" "54" "A"
+element 134 "On Black" "54" "A"
+element 134 "Symbol" "X" "A"
+element 134 "Measured" "Default" "A"
+element 134 "Simulated" "Long Dot Dashed Line" "A"
+element 135 "Name" "Data 134"
+element 135 "On White" "106" "A"
+element 135 "On Black" "106" "A"
+element 135 "Symbol" "X" "A"
+element 135 "Measured" "Default" "A"
+element 135 "Simulated" "Long Dot Dashed Line" "A"
+element 136 "Name" "Data 135"
+element 136 "On White" "120" "A"
+element 136 "On Black" "120" "A"
+element 136 "Symbol" "X" "A"
+element 136 "Measured" "Default" "A"
+element 136 "Simulated" "Long Dot Dashed Line" "A"
+element 137 "Name" "Data 136"
+element 137 "On White" "87" "A"
+element 137 "On Black" "87" "A"
+element 137 "Symbol" "X" "A"
+element 137 "Measured" "Default" "A"
+element 137 "Simulated" "Long Dot Dashed Line" "A"
+element 138 "Name" "Data 137"
+element 138 "On White" "29" "A"
+element 138 "On Black" "79" "A"
+element 138 "Symbol" "X" "A"
+element 138 "Measured" "Default" "A"
+element 138 "Simulated" "Long Dot Dashed Line" "A"
+element 139 "Name" "Data 138"
+element 139 "On White" "81" "A"
+element 139 "On Black" "81" "A"
+element 139 "Symbol" "X" "A"
+element 139 "Measured" "Default" "A"
+element 139 "Simulated" "Long Dot Dashed Line" "A"
+element 140 "Name" "Data 139"
+element 140 "On White" "1" "A"
+element 140 "On Black" "1" "A"
+element 140 "Symbol" "Cross" "A"
+element 140 "Measured" "Default" "A"
+element 140 "Simulated" "Solid Line" "A"
+element 141 "Name" "Data 140"
+element 141 "On White" "5" "A"
+element 141 "On Black" "2" "A"
+element 141 "Symbol" "Circle" "A"
+element 141 "Measured" "Default" "A"
+element 141 "Simulated" "Solid Line" "A"
+element 142 "Name" "Data 141"
+element 142 "On White" "6" "A"
+element 142 "On Black" "6" "A"
+element 142 "Symbol" "Reverse Triangle" "A"
+element 142 "Measured" "Default" "A"
+element 142 "Simulated" "Solid Line" "A"
+element 143 "Name" "Data 142"
+element 143 "On White" "3" "A"
+element 143 "On Black" "3" "A"
+element 143 "Symbol" "Square" "A"
+element 143 "Measured" "Default" "A"
+element 143 "Simulated" "Solid Line" "A"
+element 144 "Name" "Data 143"
+element 144 "On White" "88" "A"
+element 144 "On Black" "88" "A"
+element 144 "Symbol" "X" "A"
+element 144 "Measured" "Default" "A"
+element 144 "Simulated" "Solid Line" "A"
+element 145 "Name" "Data 144"
+element 145 "On White" "4" "A"
+element 145 "On Black" "4" "A"
+element 145 "Symbol" "Star" "A"
+element 145 "Measured" "Default" "A"
+element 145 "Simulated" "Solid Line" "A"
+element 146 "Name" "Data 145"
+element 146 "On White" "25" "A"
+element 146 "On Black" "117" "A"
+element 146 "Symbol" "Cross" "A"
+element 146 "Measured" "Default" "A"
+element 146 "Simulated" "Solid Line" "A"
+element 147 "Name" "Data 146"
+element 147 "On White" "40" "A"
+element 147 "On Black" "40" "A"
+element 147 "Symbol" "Cross" "A"
+element 147 "Measured" "Default" "A"
+element 147 "Simulated" "Solid Line" "A"
+element 148 "Name" "Data 147"
+element 148 "On White" "28" "A"
+element 148 "On Black" "28" "A"
+element 148 "Symbol" "Cross" "A"
+element 148 "Measured" "Default" "A"
+element 148 "Simulated" "Solid Line" "A"
+element 149 "Name" "Data 148"
+element 149 "On White" "114" "A"
+element 149 "On Black" "114" "A"
+element 149 "Symbol" "Cross" "A"
+element 149 "Measured" "Default" "A"
+element 149 "Simulated" "Solid Line" "A"
+element 150 "Name" "Data 149"
+element 150 "On White" "14" "A"
+element 150 "On Black" "94" "A"
+element 150 "Symbol" "Cross" "A"
+element 150 "Measured" "Default" "A"
+element 150 "Simulated" "Solid Line" "A"
+}
+TABLE "Curve Settings" "770.004"
+{
+element 0 "Curve" "Curve 0"
+element 0 "On White" "1" "A"
+element 0 "On Black" "1" "A"
+element 1 "Curve" "Curve 1"
+element 1 "On White" "5" "A"
+element 1 "On Black" "2" "A"
+element 2 "Curve" "Curve 2"
+element 2 "On White" "6" "A"
+element 2 "On Black" "6" "A"
+element 3 "Curve" "Curve 3"
+element 3 "On White" "3" "A"
+element 3 "On Black" "3" "A"
+element 4 "Curve" "Curve 4"
+element 4 "On White" "88" "A"
+element 4 "On Black" "88" "A"
+element 5 "Curve" "Curve 5"
+element 5 "On White" "4" "A"
+element 5 "On Black" "4" "A"
+element 6 "Curve" "Curve 6"
+element 6 "On White" "25" "A"
+element 6 "On Black" "117" "A"
+element 7 "Curve" "Curve 7"
+element 7 "On White" "40" "A"
+element 7 "On Black" "40" "A"
+element 8 "Curve" "Curve 8"
+element 8 "On White" "28" "A"
+element 8 "On Black" "28" "A"
+element 9 "Curve" "Curve 9"
+element 9 "On White" "114" "A"
+element 9 "On Black" "114" "A"
+element 10 "Curve" "Curve 10"
+element 10 "On White" "14" "A"
+element 10 "On Black" "94" "A"
+element 11 "Curve" "Curve 11"
+element 11 "On White" "23" "A"
+element 11 "On Black" "81" "A"
+element 12 "Curve" "Curve 12"
+element 12 "On White" "102" "A"
+element 12 "On Black" "50" "A"
+element 13 "Curve" "Curve 13"
+element 13 "On White" "27" "A"
+element 13 "On Black" "115" "A"
+element 14 "Curve" "Curve 14"
+element 14 "On White" "54" "A"
+element 14 "On Black" "54" "A"
+element 15 "Curve" "Curve 15"
+element 15 "On White" "106" "A"
+element 15 "On Black" "106" "A"
+element 16 "Curve" "Curve 16"
+element 16 "On White" "120" "A"
+element 16 "On Black" "120" "A"
+element 17 "Curve" "Curve 17"
+element 17 "On White" "87" "A"
+element 17 "On Black" "87" "A"
+element 18 "Curve" "Curve 18"
+element 18 "On White" "29" "A"
+element 18 "On Black" "79" "A"
+element 19 "Curve" "Curve 19"
+element 19 "On White" "81" "A"
+element 19 "On Black" "81" "A"
+}
+TABLE "Plot Settings" "770.004"
+{
+element 0 "Multicolor" "Display all curves with the configured trace color" "A"
+element 0 "Measured Trace" "Symbols Only" "A"
+element 0 "Simulated Trace" "Solid Line" "A"
+element 0 "Transform Result" "Solid Line" "A"
+element 0 "Error Trace" "Solid Line" "A"
+element 0 "Show Title" "Yes" "A"
+element 0 "Show Multiplot Header" "Yes" "A"
+element 0 "Show Multiplot Footer" "Yes" "A"
+element 0 "Show Header" "Yes" "A"
+element 0 "Show Footer" "Yes" "A"
+element 0 "Show Legend" "No" "A"
+element 0 "White Background" "No" "A"
+element 0 "Show Area Tools" "Yes" "A"
+element 0 "Enable Annotation" "No" "A"
+element 0 "Annotation Location" "Upper Left" "A"
+element 0 "PEL Control" "No" "A"
+element 0 "Annotation Text" ""
+element 0 "PEL Transform" ""
+element 0 "PEL Call Type" "1"
+element 0 "Font Type" "Arial For CAE" "A"
+element 0 "Font Size" "12.00" "A"
+element 0 "Annotation Font Name" "Arial For CAE" "A"
+element 0 "Annotation Font Sz" "9.000" "A"
+element 0 "Symbol Size" "4.000" "A"
+element 0 "Plot Selection Callback" "" "A"
+}
+}
+LINK CIRC "Circuit" "770.004"
+{
+data
+{
+circuitdeck
+{
+ D1  1 = A  2 = C  DIODE
+ .MODEL DIODE D
+ + IS = 1E-14
+ + N = 1.0
+ + BV = 1000
+ + IBV = 1m
+ + RS = 0
+ + CJO = 0
+ + VJ = 1.0
+ + M = 0.5
+ + FC = 0.5
+ + TT = 0
+ + EG = 1.110
+ + XTI = 3.0
+}
+}
+}
+LINK PS "Parameter Set" "770.004"
+{
+data
+{
+PSTABLE "Parameter Table"
+{
+View par_var_table 0 "V530 P26 C9 C9 C9 C9 C9 C9 C9"
+param IS " 7.062E-25 "
+fullprecision IS "7.0616412803039408154E-25"
+param N " 1.137 "
+fullprecision N "1.1372509748984276357"
+param BV " 100.0 "
+fullprecision BV "100"
+param IBV " 1.000m"
+fullprecision IBV "0.0010000000000000000208"
+param RS " 127.0 "
+fullprecision RS "126.9715955405297052"
+param CJO " 500.0f"
+fullprecision CJO "4.9999999999999998994E-13"
+param VJ " 699.8m"
+fullprecision VJ "0.69979999999999997762"
+param M " 499.9m"
+fullprecision M "0.49990000000000001101"
+param FC " 500.0m"
+fullprecision FC "0.5"
+param TT " 1.000n"
+fullprecision TT "1.0000000000000000623E-09"
+param EG " 3.400 "
+fullprecision EG "3.3999999999999999112"
+param XTI " 3.000 "
+fullprecision XTI "3"
+}
+}
+}
+LINK MACRO "plot_doc" "770.004"
+{
+TABLE "Edit Macro Info" "770.004"
+{
+element 0 "MacroType" "PEL"
+}
+data
+{
+BLKEDIT "Macro Editor"
+{
+ ! Documentation Macro for data plots
+ ! Note: will print into the currently active directory
+ 
+ 
+ x = system("rm plot_doc.text") !delete annotate file if exists
+ printer is "plot_doc.text" !redirect print statements to file
+ 
+ print "PN Diode Characterization"
+ print
+ print "Date: ";system$("date") ! get current date & time
+ print "Operator: ";system$("logname")
+ print 
+ print "Extracted   Values"
+ print "------------------"
+ print "  IS = ";IS
+ print "  N  = ";N
+ print "  RS = ";RS
+ print
+ ia = dc/idvd/ia  ! set path to anode current
+ va = dc/idvd/va  ! set path to anode voltage
+ print "Max Power during test = ";max(ia)*max(va)*1K;" mWatts"
+ printer is CRT  ! return IC-CAP output to terminal window
+ 
+}
+}
+}
+LINK DUT "dc" "770.004"
+{
+View tree_dut 1 "1"
+TABLE "Variable Table" "770.004"
+{
+View par_var_table 0 "V530 P77 C10 C10 C10"
+element 0 "Name" ""
+element 0 "Value" ""
+}
+TABLE "GUI Table" "770.004"
+{
+element 0 "Name" ""
+element 0 "Value" ""
+}
+LINK TCIRC "Test Circuit" "770.004"
+{
+data
+{
+circuitdeck
+{
+
+}
+}
+}
+LINK DPS "Device Parameter Set" "770.004"
+{
+data
+{
+PSTABLE "Parameter Table"
+{
+View par_var_table 0 "V530 P77 C9 C9 C9 C9 C9 C9 C9"
+}
+}
+}
+LINK CONN "Connection" "770.004"
+{
+data
+{
+CNTABLE "Connection Table"
+{
+connpair "A" ""
+connpair "C" ""
+}
+}
+}
+LINK DAT "idvd_Diamond" "770.004"
+{
+View in_out 1 "5.0236397914396 27286 14546"
+View plot 1 "0.41801529952436 2104 5094"
+TABLE "Variable Table" "770.004"
+{
+View par_var_table 0 "V530 C1 C10 C10 C10"
+element 0 "Name" "X_HIGH"
+element 0 "Value" "1.001"
+element 1 "Name" "X_LOW"
+element 1 "Value" "702.4m"
+element 2 "Name" "Y_HIGH"
+element 2 "Value" "327.0m"
+element 3 "Name" "Y_LOW"
+element 3 "Value" "2.604m"
+element 4 "Name" "ANNOTATE_PLOTS"
+element 4 "Value" "YES"
+element 5 "Name" "ANNOTATE_MACRO"
+element 5 "Value" "plot_doc"
+element 6 "Name" "ANNOTATE_FILE"
+element 6 "Value" "plot_doc.text"
+element 7 "Name" "ANNOTATE_AUTO"
+element 7 "Value" "YES"
+element 8 "Name" "MDM_EXPORT_XFORM_DATA"
+element 8 "Value" "0"
+element 9 "Name" "MDM_FILE_PATH"
+element 9 "Value" ""
+element 10 "Name" "MDM_FILE_NAME"
+element 10 "Value" "diamond_diode.mdm"
+element 11 "Name" ""
+element 11 "Value" ""
+}
+TABLE "GUI Table" "770.004"
+{
+element 0 "Name" ""
+element 0 "Value" ""
+}
+LINK SWEEP "va" "770.004"
+{
+View draw_ds 1 "B,881,175"
+data
+{
+HYPTABLE "Edit Sweep Info"
+{
+element "Mode" "V"
+element "Sweep Type" "LIN"
+}
+HYPTABLE "Edit Sweep Mode Def"
+{
+element "+ Node" "A"
+element "- Node" "GROUND"
+element "Unit" "SMU1"
+element "Compliance" " 100.0m"
+}
+HYPTABLE "Edit Sweep Def"
+{
+element "Sweep Order" "1"
+element "Start" " 480.0m"
+element "Stop" " 2.000 "
+element "# of Points" "39"
+element "Step Size" " 40.00m"
+}
+}
+list PLOT "i_vs_v"
+}
+LINK SWEEP "vc" "770.004"
+{
+View draw_ds 1 "B,3011,175"
+data
+{
+HYPTABLE "Edit Sweep Info"
+{
+element "Mode" "V"
+element "Sweep Type" "CON"
+}
+HYPTABLE "Edit Sweep Mode Def"
+{
+element "+ Node" "C"
+element "- Node" "GROUND"
+element "Unit" "SMU2"
+element "Compliance" " 100.0m"
+}
+HYPTABLE "Edit Sweep Def"
+{
+element "Value" " 0.000 "
+}
+}
+}
+LINK OUT "ia" "770.004"
+{
+View draw_ds 1 "B,5114,166"
+data
+{
+HYPTABLE "Edit Output Info"
+{
+element "Mode" "I"
+element "Unit" "SMU1"
+element "Type" "B"
+}
+HYPTABLE "Edit Out Mode Def"
+{
+element "To Node" "A"
+element "From Node" "GROUND"
+}
+dataset
+{
+datasize BOTH 39 1 1
+type MEAS
+point 0 1 1 3E-12 0
+point 1 1 1 4E-12 0
+point 2 1 1 1E-12 0
+point 3 1 1 1E-11 0
+point 4 1 1 1E-12 0
+point 5 1 1 3E-12 0
+point 6 1 1 -1E-12 0
+point 7 1 1 1.4E-11 0
+point 8 1 1 -2E-12 0
+point 9 1 1 5E-12 0
+point 10 1 1 0 0
+point 11 1 1 2.6E-11 0
+point 12 1 1 7.6E-11 0
+point 13 1 1 3.41E-10 0
+point 14 1 1 1.47E-09 0
+point 15 1 1 6.34E-09 0
+point 16 1 1 2.69E-08 0
+point 17 1 1 1.09E-07 0
+point 18 1 1 4.44E-07 0
+point 19 1 1 1.71E-06 0
+point 20 1 1 6.25E-06 0
+point 21 1 1 1.99E-05 0
+point 22 1 1 5.73E-05 0
+point 23 1 1 0.000136919 0
+point 24 1 1 0.000271513 0
+point 25 1 1 0.000463141 0
+point 26 1 1 0.000698152 0
+point 27 1 1 0.000963296 0
+point 28 1 1 0.00124042 0
+point 29 1 1 0.00154003 0
+point 30 1 1 0.0018488 0
+point 31 1 1 0.00216328 0
+point 32 1 1 0.0024744 0
+point 33 1 1 0.00279339 0
+point 34 1 1 0.00311279 0
+point 35 1 1 0.00342613 0
+point 36 1 1 0.00374548 0
+point 37 1 1 0.00406423 0
+point 38 1 1 0.00438274 0
+type SIMU
+point 0 1 1 4.80009E-13 0
+point 1 1 1 5.20021E-13 0
+point 2 1 1 5.60132E-13 0
+point 3 1 1 6.00513E-13 0
+point 4 1 1 6.41998E-13 0
+point 5 1 1 6.87785E-13 0
+point 6 1 1 7.50336E-13 0
+point 7 1 1 8.78221E-13 0
+point 8 1 1 1.2607E-12 0
+point 9 1 1 2.63533E-12 0
+point 10 1 1 7.87629E-12 0
+point 11 1 1 2.81842E-11 0
+point 12 1 1 1.07207E-10 0
+point 13 1 1 4.15038E-10 0
+point 14 1 1 1.61452E-09 0
+point 15 1 1 6.28859E-09 0
+point 16 1 1 2.45013E-08 0
+point 17 1 1 9.54478E-08 0
+point 18 1 1 3.71508E-07 0
+point 19 1 1 1.44107E-06 0
+point 20 1 1 5.51732E-06 0
+point 21 1 1 2.0163E-05 0
+point 22 1 1 6.48526E-05 0
+point 23 1 1 0.000164403 0
+point 24 1 1 0.000322977 0
+point 25 1 1 0.000525326 0
+point 26 1 1 0.000756006 0
+point 27 1 1 0.00100446 0
+point 28 1 1 0.00126613 0
+point 29 1 1 0.0015365 0
+point 30 1 1 0.0018132 0
+point 31 1 1 0.00209477 0
+point 32 1 1 0.00238018 0
+point 33 1 1 0.00266866 0
+point 34 1 1 0.00295966 0
+point 35 1 1 0.00325276 0
+point 36 1 1 0.00354763 0
+point 37 1 1 0.00384401 0
+point 38 1 1 0.0041417 0
+}
+}
+list PLOT "i_vs_v"
+}
+LINK XFORM "DFO_Clipped" "770.004"
+{
+data
+{
+HYPTABLE "Link Transform"
+{
+element "Function" "PythonGlobal"
+}
+BLKEDIT "Program Body"
+{
+ """
+ MIT License
+ 
+ Copyright (c) 2024 Rafael Perez Martinez
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ 
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+ """
+ """
+ This code accompanies the manuscript "Compact Model Parameter Extraction via Derivative-Free Optimization" by Rafael Perez Martinez et al.
+ Paper link: https://arxiv.org/abs/2406.16355
+ Written by Rafael Perez Martinez (Stanford University)
+ """
+ from iccap import iccap_func, get_par, get_var, DVar, Transform, Input, Output, Plot, Setup, df2setup, set_par
+ from iccap import icfuncs as f
+ from iccap import *
+ import itertools
+ import os
+ import numpy as np
+ import matplotlib.pyplot as plt
+ import pandas as pd
+ import optuna
+ import csv
+ import joblib
+ import json
+ from sklearn.model_selection import train_test_split
+ # This example corresponds to Section 3.3 (Diamond Schottky Diode Fitting Example) of the manuscript
+ # In this transform, we first do a test/train split, train the model, set the correct hyperparameters, and assess the model using test data
+ 
+ # Important: Define the desired parameters to be extracted along with the appropiate ranges in Lines 125-130
+ # Note: This method is probabilistic (i.e., you get a different result everytime you run it)
+ # You can make it deterministic by changing the sampler_behavior to 1 and adding a seed_value
+ 
+ sampler_behavior = 1  # 0 for probabilistic and 1 for deterministic
+ seed_value = 1        # If determinisitc, define the seed value here
+ num_trials = 250
+ 
+ # Change directory accordingly
+ base_path = 'D:/Users/rafap/Desktop/DFO_Parameter_Extraction/Diode_ex/Clipped_Train_Val_Split'
+ va = Input("../idvd_Diamond/va").get_val(msb='M')
+ va = (np.array(va[("M", "11")][:])).real
+ 
+ ia_meas = Output("../idvd_Diamond/ia").get_val(msb='M')
+ ia_meas = (np.array(ia_meas[("M", "11")][:])).real
+ 
+ df_meas = pd.DataFrame({'va_meas': va, 'ia_meas': ia_meas})
+ df_meas.to_csv(f"{base_path}/diamond_diode_meas.csv", index=False)
+ 
+ data_len = len(va)  
+ ind = np.arange(data_len)
+ train_ind, test_ind = train_test_split(ind, test_size=0.20, random_state=42, shuffle=True)
+ 
+ train_ind = np.sort(train_ind)
+ test_ind = np.sort(test_ind)
+ 
+ va_train = va[train_ind]
+ ia_meas_train = ia_meas[train_ind]
+ va_test = va[test_ind]
+ ia_meas_test = ia_meas[test_ind]
+ 
+ df_train = pd.DataFrame({'va_train': va_train, 'ia_meas_train': ia_meas_train})
+ df_train.to_csv(f"{base_path}/diamond_diode_meas_train.csv", index=False)
+ 
+ df_test = pd.DataFrame({'va_test': va_test, 'ia_meas_test': ia_meas_test})
+ df_test.to_csv(f"{base_path}/diamond_diode_meas_test.csv", index=False)
+ 
+ # Set hyperparameters
+ epsilon = 1e-10
+ delta = np.sqrt(0.15)
+ 
+ def calc_error(ia_meas, ia_sim, epsilon, delta):
+     ia_sim = np.maximum(ia_sim, -epsilon + 1e-15) # Ensure ia_sim is not too close to zero
+     ia_meas = np.maximum(ia_meas, -epsilon + 1e-15) # Ensure ia_sim is not too close to zero
+ 
+     # Calculate the log-transformed simulated and measured currents
+     log_I_sim = np.log(1 + ia_sim/epsilon)
+     log_I_meas = np.log(1 + ia_meas/epsilon)
+     error = np.abs(log_I_sim - log_I_meas)
+     
+     # Calculates penalized errors
+     penalized_errors = np.where(error <= delta, error**2, delta**2)
+ 
+     # Return the mean of the penalized errors
+     return np.mean(penalized_errors)
+ 
+ def simulate_and_evaluate(**parameters):
+     for key, value in parameters.items():
+         set_par(f"/diode.{key}", str(value))
+     # Run simulation
+     iccap_func("../idvd_Diamond", "Simulate")
+     # Extract simulated ia
+     ia_sim = Output("../idvd_Diamond/ia").get_val(msb='S')
+     ia_sim = (np.array(ia_sim[("S", "11")][:])).real
+ 
+     ia_sim_train = ia_sim[train_ind]
+     ia_sim_test = ia_sim[test_ind]
+ 
+     # Calculate error
+     train_error = calc_error(ia_meas_train, ia_sim_train, epsilon, delta)
+     test_error = calc_error(ia_meas_test, ia_sim_test, epsilon, delta)
+ 
+     return train_error, test_error
+ 
+ path2plot = "../idvd_Diamond/i_vs_v"
+ iccap_func(path2plot , "Display Plot")
+ iccap_func(path2plot , "Autoscale On") 
+ iccap_func(path2plot , "LegendOn")
+ 
+ # Define the desired parameters to be extracted along with the appropiate ranges
+ def objective(trial):
+     parameters = {
+          "N": trial.suggest_float("N", 0.5, 1.5),
+          "IS": trial.suggest_float("IS", 1e-25, 1e-22, log=True),
+          "RS": trial.suggest_float("RS", 100, 150)
+     }
+     train_error, test_error = simulate_and_evaluate(**parameters)
+     trial.set_user_attr('test_error', test_error)    
+     return train_error
+ 
+ optuna.logging.set_verbosity(optuna.logging.INFO)
+ 
+ def create_optuna_study(sampler_behavior=0, seed=seed_value):
+     if sampler_behavior == 1:
+         sampler = optuna.samplers.TPESampler(seed=seed)  # Deterministic behavior with the specified seed
+     else:
+         sampler = optuna.samplers.TPESampler()  # Probabilistic behavior (default)
+ 
+     study = optuna.create_study(directions=['minimize'], sampler=sampler)
+     return study
+ 
+ study = create_optuna_study(sampler_behavior=sampler_behavior, seed=seed_value)
+ study.optimize(objective, n_trials=num_trials)
+ joblib.dump(study, f"{base_path}/diamond_diode_study_train_val_split.pkl")
+ 
+ # Get the best parameters
+ best_trial = study.best_trial
+ best_params = best_trial.params
+ print("Best trial parameters:", best_params)
+ 
+ # Extract the individual best parameters
+ parameters = {
+     "N": best_params["N"],
+     "IS": best_params["IS"],
+     "RS": best_params["RS"]
+ }
+ 
+ # Evaluate the function with the best parameters
+ train_error, test_error = simulate_and_evaluate(**parameters)
+ print("Train Error for best trial:", train_error)
+ print("Test Error for best trial:", test_error)
+ 
+ # Save best parameters to a JSON file
+ with open(f"{base_path}/best_parameters_train_val_split.json", "w") as json_file:
+     json.dump(best_params, json_file, indent=4)
+ 
+ print("Best parameters from train/val split saved to best_parameters.json")
+ 
+ file_path = f"{base_path}/diamond_diode_Optuna_250_trials_train_val_split.csv"
+ 
+ # Write the results to a CSV file
+ with open(file_path, mode='w', newline='') as file:
+     writer = csv.writer(file)
+     writer.writerow(['Trial', 'Train Error', 'Test Error', 'Parameters'])
+     for trial in study.trials:
+         writer.writerow([
+             trial.number,
+             trial.value,
+             trial.user_attrs.get('test_error'),
+             trial.params
+         ])
+ 
+ print(f'Results saved to {file_path}')
+ 
+ # Simulate best parameters and save sim data
+ ia_sim = Output("../idvd_Diamond/ia").get_val(msb='S')
+ ia_sim = (np.array(ia_sim[("S", "11")][:])).real
+ 
+ df_sim = pd.DataFrame({'va_sim': va, 'ia_sim': ia_sim})
+ df_sim.to_csv(f"{base_path}/diamond_diode_sim_train_val_split.csv", index=False)
+}
+OPTIMEDIT
+{
+TABLE "More" 0 "770.004"
+{
+element 0 "Rank 1 Flag" "Yes"
+element 0 "Param Delta" " 1.000m"
+element 0 "Param Print" "A"
+element 0 "Error Print" "A"
+element 0 "Sens Print" "I"
+element 0 "Normal Sens" "Yes"
+element 0 "Optim Mode" "L"
+element 0 "Rand Std Dev" " 300.0m"
+element 0 "Rand Reward" " 500.0m"
+element 0 "Rand Penalty" " 500.0m"
+element 0 "Rand Seed" "0"
+element 0 "Rand Iters" "25"
+element 0 "Max Iters" "25"
+}
+TABLE "Input Table" 1 "770.004"
+{
+element 0 "Target" ""
+element 0 "Simulated" ""
+element 0 "Weight" " 1.000 "
+element 0 "Target Min" " 0.000 "
+element 0 "Target Max" " 0.000 "
+element 0 "X Min" " 0.000 "
+element 0 "X Max" " 0.000 "
+element 0 "Curve Min" ""
+element 0 "Curve Max" ""
+element 0 "X Data Ref" ""
+element 0 "Curve Data" ""
+element 0 "Reference SetUp" ""
+}
+TABLE "Param Table" 1 "770.004"
+{
+element 0 "Use" "Yes"
+element 0 "Name" ""
+element 0 "Min" " 1.000f"
+element 0 "Value" ""
+element 0 "Max" " 1.000MEG"
+element 0 "Stored" " 0.000 "
+element 0 "Tuner (L)IN/LO(G)" "G"
+}
+TABLE "Options Table" 0 "770.004"
+{
+element 0 "Y Lower Bnd" " 0.000 "
+element 0 "Y Upper Bnd" " 0.000 "
+element 0 "X Lower Bnd" " 0.000 "
+element 0 "X Upper Bnd" " 0.000 "
+element 0 "Comb Filter" "1"
+element 0 "RMS error" " 10.00m"
+element 0 "Max error" " 10.00m"
+element 0 "Abs Err Flag" "No"
+element 0 "Param Tol" " 1.000m"
+element 0 "Function Tol" " 1.000m"
+element 0 "Max Evals" "100"
+element 0 "Extract Flag" "No"
+}
+PLOTOPTIONS
+ENDPLOTOPTIONS
+}
+HYPTABLE "Step Editor"
+{
+element "Step Name" ""
+element "Step Source" "Local"
+element "Auto Update" "No"
+element "Setup Reference" ""
+element "Step Type (O/T)" "T"
+element "Sim Precondition" "No"
+element "Range Precondition" "N"
+element "Sim Speed" "F"
+element "Plots Per Row" "0"
+element "Optional" "No"
+}
+BLKEDIT "Step Description"
+{
+
+}
+dataset
+{
+datasize COMMON 39 1 1
+type COMMON
+point 0 1 1 0 0
+point 1 1 1 0 0
+point 2 1 1 0 0
+point 3 1 1 0 0
+point 4 1 1 0 0
+point 5 1 1 0 0
+point 6 1 1 0 0
+point 7 1 1 0 0
+point 8 1 1 0 0
+point 9 1 1 0 0
+point 10 1 1 0 0
+point 11 1 1 0 0
+point 12 1 1 0 0
+point 13 1 1 0 0
+point 14 1 1 0 0
+point 15 1 1 0 0
+point 16 1 1 0 0
+point 17 1 1 0 0
+point 18 1 1 0 0
+point 19 1 1 0 0
+point 20 1 1 0 0
+point 21 1 1 0 0
+point 22 1 1 0 0
+point 23 1 1 0 0
+point 24 1 1 0 0
+point 25 1 1 0 0
+point 26 1 1 0 0
+point 27 1 1 0 0
+point 28 1 1 0 0
+point 29 1 1 0 0
+point 30 1 1 0 0
+point 31 1 1 0 0
+point 32 1 1 0 0
+point 33 1 1 0 0
+point 34 1 1 0 0
+point 35 1 1 0 0
+point 36 1 1 0 0
+point 37 1 1 0 0
+point 38 1 1 0 0
+}
+}
+}
+LINK XFORM "DFO_Clipped_All_Data" "770.004"
+{
+data
+{
+HYPTABLE "Link Transform"
+{
+element "Function" "PythonGlobal"
+}
+BLKEDIT "Program Body"
+{
+ """
+ MIT License
+ 
+ Copyright (c) 2024 Rafael Perez Martinez
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ 
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+ """
+ """
+ This code accompanies the manuscript "Compact Model Parameter Extraction via Derivative-Free Optimization" by Rafael Perez Martinez et al.
+ Paper link: https://arxiv.org/abs/2406.16355
+ Written by Rafael Perez Martinez (Stanford University)
+ """
+ from iccap import iccap_func, get_par, get_var, DVar, Transform, Input, Output, Plot, Setup, df2setup, set_par
+ from iccap import icfuncs as f
+ from iccap import *
+ import itertools
+ import os
+ import numpy as np
+ import matplotlib.pyplot as plt
+ import pandas as pd
+ import optuna
+ import csv
+ import joblib
+ import json
+ from sklearn.model_selection import train_test_split
+ # This example corresponds to Section 3.3 (Diamond Schottky Diode Fitting Example) of the manuscript
+ 
+ # Having found a good set of parameters using the previous transform, we re-train the model using all data to further improve the fit
+ # This time, the number of trials will be much less than the first step since we have tighten the range of the parameters
+ 
+ # Important: Tighten the ranges of the parameters in Lines 108-113
+ # Note: This method is probabilistic (i.e., you get a different result everytime you run it)
+ # However, you can make it deterministic by changing the sampler_behavior to 1 and adding a seed_value
+ 
+ sampler_behavior = 1  # 0 for probabilistic and 1 for deterministic
+ seed_value = 1        # If determinisitc, define the seed value here
+ num_trials = 50
+ 
+ # Change directories accordingly
+ base_path = 'D:/Users/rafap/Desktop/DFO_Parameter_Extraction/Diode_ex/Clipped_All_Data'
+ train_test_path = 'D:/Users/rafap/Desktop/DFO_Parameter_Extraction/Diode_ex/Clipped_Train_Val_Split'
+ 
+ 
+ va = Input("../idvd_Diamond/va").get_val(msb='M')
+ va = (np.array(va[("M", "11")][:])).real
+ 
+ ia_meas = Output("../idvd_Diamond/ia").get_val(msb='M')
+ ia_meas = (np.array(ia_meas[("M", "11")][:])).real
+ 
+ df_meas = pd.DataFrame({'va_meas': va, 'ia_meas': ia_meas})
+ df_meas.to_csv(f"{base_path}/diamond_diode_meas.csv", index=False)
+ 
+ # Set hyperparameters
+ epsilon = 1e-10
+ delta = np.sqrt(0.15)
+ 
+ def calc_error(ia_meas, ia_sim, epsilon, delta):
+     ia_sim = np.maximum(ia_sim, -epsilon + 1e-15) # Ensure ia_sim is not too close to zero
+     ia_meas = np.maximum(ia_meas, -epsilon + 1e-15) # Ensure ia_sim is not too close to zero
+ 
+     # Calculate the log-transformed simulated and measured currents
+     log_I_sim = np.log(1 + ia_sim/epsilon)
+     log_I_meas = np.log(1 + ia_meas/epsilon)
+     error = np.abs(log_I_sim - log_I_meas)
+     
+     # Calculates penalized errors
+     penalized_errors = np.where(error <= delta, error**2, delta**2)
+ 
+     # Return the mean of the penalized errors
+     return np.mean(penalized_errors)
+ 
+ def simulate_and_evaluate(**parameters):
+     for key, value in parameters.items():
+         set_par(f"/diode.{key}", str(value))
+     # Run simulation
+     iccap_func("../idvd_Diamond", "Simulate")
+     # Extract simulated ia
+     ia_sim = Output("../idvd_Diamond/ia").get_val(msb='S')
+     ia_sim = (np.array(ia_sim[("S", "11")][:])).real
+ 
+     # Calculate error
+     error = calc_error(ia_meas, ia_sim, epsilon, delta)
+     
+     return error
+ 
+ path2plot = "../idvd_Diamond/i_vs_v"
+ iccap_func(path2plot , "Display Plot")
+ iccap_func(path2plot , "Autoscale On") 
+ iccap_func(path2plot , "LegendOn")
+ 
+ # Tighten the ranges of the parameters
+ def objective(trial):
+     parameters = {
+          "N": trial.suggest_float("N", 1.12, 1.25),
+          "IS": trial.suggest_float("IS", 5e-25, 5e-24),
+          "RS": trial.suggest_float("RS", 124, 128)
+     }
+     error = simulate_and_evaluate(**parameters)
+     return error
+ 
+ # Load parameters from a JSON file
+ def load_parameters_from_json(file_path):
+     with open(file_path, 'r') as file:
+         parameters = json.load(file)
+     return parameters
+ 
+ optuna.logging.set_verbosity(optuna.logging.INFO)
+ 
+ def create_optuna_study(sampler_behavior=0, seed=seed_value):
+     if sampler_behavior == 1:
+         sampler = optuna.samplers.TPESampler(seed=seed)  # Deterministic behavior with the specified seed
+     else:
+         sampler = optuna.samplers.TPESampler()  # Probabilistic behavior (default)
+ 
+     study = optuna.create_study(directions=['minimize'], sampler=sampler)
+     return study
+ 
+ study = create_optuna_study(sampler_behavior=sampler_behavior, seed=seed_value)
+ 
+ # Start with best parameters found from train/test split
+ file_path_train_test_params= f"{train_test_path}/best_parameters_train_val_split.json"
+ train_test_parameters = load_parameters_from_json(file_path_train_test_params)
+ study.enqueue_trial(train_test_parameters)
+ 
+ study.optimize(objective, n_trials=num_trials)
+ joblib.dump(study, f"{base_path}/diamond_diode_study.pkl")
+ 
+ # Get the best parameters
+ best_trial = study.best_trial
+ best_params = best_trial.params
+ print("Best trial parameters:", best_params)
+ 
+ # Extract the individual best parameters
+ parameters = {
+     "N": best_params["N"],
+     "IS": best_params["IS"],
+     "RS": best_params["RS"]
+ }
+ 
+ # Evaluate the function with the best parameters
+ error = simulate_and_evaluate(**parameters)
+ print("Error for best trial:", error)
+ 
+ # Save best parameters to a JSON file
+ with open(f"{base_path}/best_parameters_all_data.json", "w") as json_file:
+     json.dump(best_params, json_file, indent=4)
+ 
+ print("Best parameters from all data saved to best_parameters.json")
+ 
+ file_path = f"{base_path}/diamond_diode_Optuna_50_trials_all_data.csv"
+ 
+ # Write the results to a CSV file
+ with open(file_path, mode='w', newline='') as file:
+     writer = csv.writer(file)
+     writer.writerow(['Trial', 'Error','Parameters'])
+     for trial in study.trials:
+         writer.writerow([
+             trial.number,
+             trial.value,
+             trial.params
+         ])
+ 
+ print(f'Results saved to {file_path}')
+ 
+ # Simulate best parameters and save sim data
+ ia_sim = Output("../idvd_Diamond/ia").get_val(msb='S')
+ ia_sim = (np.array(ia_sim[("S", "11")][:])).real
+ 
+ df_sim = pd.DataFrame({'va_sim': va, 'ia_sim': ia_sim})
+ df_sim.to_csv(f"{base_path}/diamond_diode_sim.csv", index=False)
+}
+OPTIMEDIT
+{
+TABLE "More" 0 "770.004"
+{
+element 0 "Rank 1 Flag" "Yes"
+element 0 "Param Delta" " 1.000m"
+element 0 "Param Print" "A"
+element 0 "Error Print" "A"
+element 0 "Sens Print" "I"
+element 0 "Normal Sens" "Yes"
+element 0 "Optim Mode" "L"
+element 0 "Rand Std Dev" " 300.0m"
+element 0 "Rand Reward" " 500.0m"
+element 0 "Rand Penalty" " 500.0m"
+element 0 "Rand Seed" "0"
+element 0 "Rand Iters" "25"
+element 0 "Max Iters" "25"
+}
+TABLE "Input Table" 1 "770.004"
+{
+element 0 "Target" ""
+element 0 "Simulated" ""
+element 0 "Weight" " 1.000 "
+element 0 "Target Min" " 0.000 "
+element 0 "Target Max" " 0.000 "
+element 0 "X Min" " 0.000 "
+element 0 "X Max" " 0.000 "
+element 0 "Curve Min" ""
+element 0 "Curve Max" ""
+element 0 "X Data Ref" ""
+element 0 "Curve Data" ""
+element 0 "Reference SetUp" ""
+}
+TABLE "Param Table" 1 "770.004"
+{
+element 0 "Use" "Yes"
+element 0 "Name" ""
+element 0 "Min" " 1.000f"
+element 0 "Value" ""
+element 0 "Max" " 1.000MEG"
+element 0 "Stored" " 0.000 "
+element 0 "Tuner (L)IN/LO(G)" "G"
+}
+TABLE "Options Table" 0 "770.004"
+{
+element 0 "Y Lower Bnd" " 0.000 "
+element 0 "Y Upper Bnd" " 0.000 "
+element 0 "X Lower Bnd" " 0.000 "
+element 0 "X Upper Bnd" " 0.000 "
+element 0 "Comb Filter" "1"
+element 0 "RMS error" " 10.00m"
+element 0 "Max error" " 10.00m"
+element 0 "Abs Err Flag" "No"
+element 0 "Param Tol" " 1.000m"
+element 0 "Function Tol" " 1.000m"
+element 0 "Max Evals" "100"
+element 0 "Extract Flag" "No"
+}
+PLOTOPTIONS
+ENDPLOTOPTIONS
+}
+HYPTABLE "Step Editor"
+{
+element "Step Name" ""
+element "Step Source" "Local"
+element "Auto Update" "No"
+element "Setup Reference" ""
+element "Step Type (O/T)" "T"
+element "Sim Precondition" "No"
+element "Range Precondition" "N"
+element "Sim Speed" "F"
+element "Plots Per Row" "0"
+element "Optional" "No"
+}
+BLKEDIT "Step Description"
+{
+
+}
+dataset
+{
+datasize COMMON 39 1 1
+type COMMON
+point 0 1 1 0 0
+point 1 1 1 0 0
+point 2 1 1 0 0
+point 3 1 1 0 0
+point 4 1 1 0 0
+point 5 1 1 0 0
+point 6 1 1 0 0
+point 7 1 1 0 0
+point 8 1 1 0 0
+point 9 1 1 0 0
+point 10 1 1 0 0
+point 11 1 1 0 0
+point 12 1 1 0 0
+point 13 1 1 0 0
+point 14 1 1 0 0
+point 15 1 1 0 0
+point 16 1 1 0 0
+point 17 1 1 0 0
+point 18 1 1 0 0
+point 19 1 1 0 0
+point 20 1 1 0 0
+point 21 1 1 0 0
+point 22 1 1 0 0
+point 23 1 1 0 0
+point 24 1 1 0 0
+point 25 1 1 0 0
+point 26 1 1 0 0
+point 27 1 1 0 0
+point 28 1 1 0 0
+point 29 1 1 0 0
+point 30 1 1 0 0
+point 31 1 1 0 0
+point 32 1 1 0 0
+point 33 1 1 0 0
+point 34 1 1 0 0
+point 35 1 1 0 0
+point 36 1 1 0 0
+point 37 1 1 0 0
+point 38 1 1 0 0
+}
+}
+}
+LINK XFORM "DFO_Clipped_Glitched" "770.004"
+{
+data
+{
+HYPTABLE "Link Transform"
+{
+element "Function" "PythonGlobal"
+}
+BLKEDIT "Program Body"
+{
+ """
+ MIT License
+ 
+ Copyright (c) 2024 Rafael Perez Martinez
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ 
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+ """
+ """
+ This code accompanies the manuscript "Compact Model Parameter Extraction via Derivative-Free Optimization" by Rafael Perez Martinez et al.
+ Paper link: https://arxiv.org/abs/2406.16355
+ Written by Rafael Perez Martinez (Stanford University)
+ """
+ from iccap import iccap_func, get_par, get_var, DVar, Transform, Input, Output, Plot, Setup, df2setup, set_par
+ from iccap import icfuncs as f
+ from iccap import *
+ import itertools
+ import os
+ import numpy as np
+ import matplotlib.pyplot as plt
+ import pandas as pd
+ import optuna
+ import csv
+ import joblib
+ import json
+ from sklearn.model_selection import train_test_split
+ # This example corresponds to Section 3.3 (Diamond Schottky Diode Fitting Example) of the manuscript
+ 
+ # In this transform, we first do a test/train split, train the model, set the correct hyperparameters, and assess the model using test data
+ # The data for this particular example has been corrupted on purpose, yet we still get a good fit using the robust loss function
+ 
+ # Important: Define the desired parameters to be extracted along with the appropiate ranges in Lines 137-143
+ # Note: This method is probabilistic (i.e., you get a different result everytime you run it)
+ # However, you can make it deterministic by changing the sampler_behavior to 1 and adding a seed_value
+ 
+ sampler_behavior = 1  # 0 for probabilistic and 1 for deterministic
+ seed_value = 3        # If determinisitc, define the seed value here
+ num_trials = 250
+ 
+ # Change directory accordingly
+ base_path = 'D:/Users/rafap/Desktop/DFO_Parameter_Extraction/Diode_ex/Clipped_Glitched_Train_Val_Split'
+ va = Input("../idvd_Diamond/va").get_val(msb='M')
+ va = (np.array(va[("M", "11")][:])).real
+ 
+ ia_meas = Output("../idvd_Diamond/ia").get_val(msb='M')
+ ia_meas = (np.array(ia_meas[("M", "11")][:])).real
+ 
+ # Set the percentage of data you want to glitch
+ glitch_percentage = 0.50
+ rng = np.random.RandomState(39)
+ 
+ num_glitches = int(len(ia_meas) * glitch_percentage)
+ 
+ glitch_inds = rng.choice(ia_meas.size, size=num_glitches, replace=False)
+ np.random.seed(39)  # Set the random seed for reproducibility
+ glitch_vals = ia_meas[glitch_inds] * np.ones(num_glitches) * np.random.choice([0.01, 100], num_glitches)
+ ia_meas[glitch_inds] = glitch_vals  # Apply the glitches
+ 
+ df_glitched = pd.DataFrame({'va': va, 'ia_meas': ia_meas})
+ df_glitched.to_csv(f"{base_path}/diamond_diode_50p_glitched_meas.csv", index=False)
+ 
+ data_len = len(va)  
+ ind = np.arange(data_len)
+ train_ind, test_ind = train_test_split(ind, test_size=0.20, random_state=42, shuffle=True)
+ 
+ train_ind = np.sort(train_ind)
+ test_ind = np.sort(test_ind)
+ 
+ va_train = va[train_ind]
+ ia_meas_train = ia_meas[train_ind]
+ va_test = va[test_ind]
+ ia_meas_test = ia_meas[test_ind]
+ 
+ df_train = pd.DataFrame({'va_train': va_train, 'ia_meas_train': ia_meas_train})
+ df_train.to_csv(f"{base_path}/diamond_diode_meas_50p_glitched_train.csv", index=False)
+ 
+ df_test = pd.DataFrame({'va_test': va_test, 'ia_meas_test': ia_meas_test})
+ df_test.to_csv(f"{base_path}/diamond_diode_meas_50p_glitched_test.csv", index=False)
+ 
+ # Set hyperparameters
+ epsilon = 1e-10
+ delta = np.sqrt(0.15)
+ 
+ def calc_error(ia_meas, ia_sim, epsilon, delta):
+     ia_sim = np.maximum(ia_sim, -epsilon + 1e-15) # Ensure ia_sim is not too close to zero
+     ia_meas = np.maximum(ia_meas, -epsilon + 1e-15) # Ensure ia_sim is not too close to zero
+ 
+     # Calculate the log-transformed simulated and measured currents
+     log_I_sim = np.log(1 + ia_sim/epsilon)
+     log_I_meas = np.log(1 + ia_meas/epsilon)
+     error = np.abs(log_I_sim - log_I_meas)
+     
+     # Calculates penalized errors
+     penalized_errors = np.where(error <= delta, error**2, delta**2)
+ 
+     # Return the mean of the penalized errors
+     return np.mean(penalized_errors)
+ 
+ def simulate_and_evaluate(**parameters):
+     for key, value in parameters.items():
+         set_par(f"/diode.{key}", str(value))
+     # Run simulation
+     iccap_func("../idvd_Diamond", "Simulate")
+     # Extract simulated ia
+     ia_sim = Output("../idvd_Diamond/ia").get_val(msb='S')
+     ia_sim = (np.array(ia_sim[("S", "11")][:])).real
+ 
+     ia_sim_train = ia_sim[train_ind]
+     ia_sim_test = ia_sim[test_ind]
+ 
+     # Calculate error
+     train_error = calc_error(ia_meas_train, ia_sim_train, epsilon, delta)
+     test_error = calc_error(ia_meas_test, ia_sim_test, epsilon, delta)
+ 
+     return train_error, test_error
+ 
+ path2plot = "../idvd_Diamond/i_vs_v"
+ iccap_func(path2plot , "Display Plot")
+ iccap_func(path2plot , "Autoscale On") 
+ iccap_func(path2plot , "LegendOn")
+ 
+ def objective(trial):
+     # Define the parameters to optimize
+     parameters = {
+          "N": trial.suggest_float("N", 0.5, 1.5),
+          "IS": trial.suggest_float("IS", 1e-25, 1e-22, log=True),
+          "RS": trial.suggest_float("RS", 100, 150)
+     }
+     train_error, test_error = simulate_and_evaluate(**parameters)
+     trial.set_user_attr('test_error', test_error)    
+     return train_error
+ 
+ optuna.logging.set_verbosity(optuna.logging.INFO)
+ 
+ def create_optuna_study(sampler_behavior=0, seed=seed_value):
+     if sampler_behavior == 1:
+         sampler = optuna.samplers.TPESampler(seed=seed)  # Deterministic behavior with the specified seed
+     else:
+         sampler = optuna.samplers.TPESampler()  # Probabilistic behavior (default)
+ 
+     study = optuna.create_study(directions=['minimize'], sampler=sampler)
+     return study
+ 
+ study = create_optuna_study(sampler_behavior=sampler_behavior, seed=seed_value)
+ 
+ study.optimize(objective, n_trials=num_trials)
+ joblib.dump(study, f"{base_path}/diamond_diode_study_50p_glitched_train_val_split.pkl")
+ 
+ # Get the best parameters
+ best_trial = study.best_trial
+ best_params = best_trial.params
+ print("Best trial parameters:", best_params)
+ 
+ # Extract the individual best parameters
+ parameters = {
+     "N": best_params["N"],
+     "IS": best_params["IS"],
+     "RS": best_params["RS"]
+ }
+ 
+ # Evaluate the function with the best parameters
+ train_error, test_error = simulate_and_evaluate(**parameters)
+ print("Train Error for best trial:", train_error)
+ print("Test Error for best trial:", test_error)
+ 
+ # Save best parameters to a JSON file
+ with open(f"{base_path}/best_parameters_train_val_split.json", "w") as json_file:
+     json.dump(best_params, json_file, indent=4)
+ 
+ print("Best parameters from train/val split saved to best_parameters.json")
+ 
+ file_path = f"{base_path}/diamond_diode_Optuna_250_trials_50p_glitched_train_val_split.csv"
+ 
+ # Write the results to a CSV file
+ with open(file_path, mode='w', newline='') as file:
+     writer = csv.writer(file)
+     writer.writerow(['Trial', 'Train Error', 'Test Error', 'Parameters'])
+     for trial in study.trials:
+         writer.writerow([
+             trial.number,
+             trial.value,
+             trial.user_attrs.get('test_error'),
+             trial.params
+         ])
+ 
+ print(f'Results saved to {file_path}')
+ 
+ # Simulate best parameters and save sim data
+ ia_sim = Output("../idvd_Diamond/ia").get_val(msb='S')
+ ia_sim = (np.array(ia_sim[("S", "11")][:])).real
+ 
+ df_sim = pd.DataFrame({'va_sim': va, 'ia_sim': ia_sim})
+ df_sim.to_csv(f"{base_path}/diamond_diode_sim_50p_glitched_train_val_split.csv", index=False)
+}
+OPTIMEDIT
+{
+TABLE "More" 0 "770.004"
+{
+element 0 "Rank 1 Flag" "Yes"
+element 0 "Param Delta" " 1.000m"
+element 0 "Param Print" "A"
+element 0 "Error Print" "A"
+element 0 "Sens Print" "I"
+element 0 "Normal Sens" "Yes"
+element 0 "Optim Mode" "L"
+element 0 "Rand Std Dev" " 300.0m"
+element 0 "Rand Reward" " 500.0m"
+element 0 "Rand Penalty" " 500.0m"
+element 0 "Rand Seed" "0"
+element 0 "Rand Iters" "25"
+element 0 "Max Iters" "25"
+}
+TABLE "Input Table" 1 "770.004"
+{
+element 0 "Target" ""
+element 0 "Simulated" ""
+element 0 "Weight" " 1.000 "
+element 0 "Target Min" " 0.000 "
+element 0 "Target Max" " 0.000 "
+element 0 "X Min" " 0.000 "
+element 0 "X Max" " 0.000 "
+element 0 "Curve Min" ""
+element 0 "Curve Max" ""
+element 0 "X Data Ref" ""
+element 0 "Curve Data" ""
+element 0 "Reference SetUp" ""
+}
+TABLE "Param Table" 1 "770.004"
+{
+element 0 "Use" "Yes"
+element 0 "Name" ""
+element 0 "Min" " 1.000f"
+element 0 "Value" ""
+element 0 "Max" " 1.000MEG"
+element 0 "Stored" " 0.000 "
+element 0 "Tuner (L)IN/LO(G)" "G"
+}
+TABLE "Options Table" 0 "770.004"
+{
+element 0 "Y Lower Bnd" " 0.000 "
+element 0 "Y Upper Bnd" " 0.000 "
+element 0 "X Lower Bnd" " 0.000 "
+element 0 "X Upper Bnd" " 0.000 "
+element 0 "Comb Filter" "1"
+element 0 "RMS error" " 10.00m"
+element 0 "Max error" " 10.00m"
+element 0 "Abs Err Flag" "No"
+element 0 "Param Tol" " 1.000m"
+element 0 "Function Tol" " 1.000m"
+element 0 "Max Evals" "100"
+element 0 "Extract Flag" "No"
+}
+PLOTOPTIONS
+ENDPLOTOPTIONS
+}
+HYPTABLE "Step Editor"
+{
+element "Step Name" ""
+element "Step Source" "Local"
+element "Auto Update" "No"
+element "Setup Reference" ""
+element "Step Type (O/T)" "T"
+element "Sim Precondition" "No"
+element "Range Precondition" "N"
+element "Sim Speed" "F"
+element "Plots Per Row" "0"
+element "Optional" "No"
+}
+BLKEDIT "Step Description"
+{
+
+}
+dataset
+{
+datasize COMMON 39 1 1
+type COMMON
+point 0 1 1 0 0
+point 1 1 1 0 0
+point 2 1 1 0 0
+point 3 1 1 0 0
+point 4 1 1 0 0
+point 5 1 1 0 0
+point 6 1 1 0 0
+point 7 1 1 0 0
+point 8 1 1 0 0
+point 9 1 1 0 0
+point 10 1 1 0 0
+point 11 1 1 0 0
+point 12 1 1 0 0
+point 13 1 1 0 0
+point 14 1 1 0 0
+point 15 1 1 0 0
+point 16 1 1 0 0
+point 17 1 1 0 0
+point 18 1 1 0 0
+point 19 1 1 0 0
+point 20 1 1 0 0
+point 21 1 1 0 0
+point 22 1 1 0 0
+point 23 1 1 0 0
+point 24 1 1 0 0
+point 25 1 1 0 0
+point 26 1 1 0 0
+point 27 1 1 0 0
+point 28 1 1 0 0
+point 29 1 1 0 0
+point 30 1 1 0 0
+point 31 1 1 0 0
+point 32 1 1 0 0
+point 33 1 1 0 0
+point 34 1 1 0 0
+point 35 1 1 0 0
+point 36 1 1 0 0
+point 37 1 1 0 0
+point 38 1 1 0 0
+}
+}
+}
+LINK XFORM "DFO_Clipped_Glitched_All_Data" "770.004"
+{
+data
+{
+HYPTABLE "Link Transform"
+{
+element "Function" "PythonGlobal"
+}
+BLKEDIT "Program Body"
+{
+ """
+ MIT License
+ 
+ Copyright (c) 2024 Rafael Perez Martinez
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ 
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+ """
+ """
+ This code accompanies the manuscript "Compact Model Parameter Extraction via Derivative-Free Optimization" by Rafael Perez Martinez et al.
+ Paper link: https://arxiv.org/abs/2406.16355
+ Written by Rafael Perez Martinez (Stanford University)
+ """
+ from iccap import iccap_func, get_par, get_var, DVar, Transform, Input, Output, Plot, Setup, df2setup, set_par
+ from iccap import icfuncs as f
+ from iccap import *
+ import itertools
+ import os
+ import numpy as np
+ import matplotlib.pyplot as plt
+ import pandas as pd
+ import optuna
+ import csv
+ import joblib
+ import json
+ from sklearn.model_selection import train_test_split
+ # This example corresponds to Section 3.3 (Diamond Schottky Diode Fitting Example) of the manuscript
+ 
+ # Having found a good set of parameters using the previous transform, we re-train the model using all data to further improve the fit
+ # This time, the number of trials will be much less than the first step since we have tighten the range of the parameters
+ 
+ # Important: Tighten the ranges of the parameters in Lines 118-123
+ # Note: This method is probabilistic (i.e., you get a different result everytime you run it)
+ # However, you can make it deterministic by changing the sampler_behavior to 1 and adding a seed_value
+ 
+ sampler_behavior = 1  # 0 for probabilistic and 1 for deterministic
+ seed_value = 3        # If determinisitc, define the seed value here
+ num_trials = 50
+ 
+ # Change directories accordingly
+ base_path = 'D:/Users/rafap/Desktop/DFO_Parameter_Extraction/Diode_ex/Clipped_Glitched_All_Data'
+ train_test_path = 'D:/Users/rafap/Desktop/DFO_Parameter_Extraction/Diode_ex/Clipped_Glitched_Train_Val_Split'
+ 
+ va = Input("../idvd_Diamond/va").get_val(msb='M')
+ va = (np.array(va[("M", "11")][:])).real
+ 
+ ia_meas = Output("../idvd_Diamond/ia").get_val(msb='M')
+ ia_meas = (np.array(ia_meas[("M", "11")][:])).real
+ 
+ # Set the percentage of data you want to glitch
+ glitch_percentage = 0.50
+ rng = np.random.RandomState(39)
+ 
+ num_glitches = int(len(ia_meas) * glitch_percentage)
+ 
+ glitch_inds = rng.choice(ia_meas.size, size=num_glitches, replace=False)
+ np.random.seed(39)  # Set the random seed for reproducibility
+ glitch_vals = ia_meas[glitch_inds] * np.ones(num_glitches) * np.random.choice([0.01, 100], num_glitches)
+ ia_meas[glitch_inds] = glitch_vals  # Apply the glitches
+ 
+ df_glitched = pd.DataFrame({'va': va, 'ia_meas': ia_meas})
+ df_glitched.to_csv(f"{base_path}/diamond_diode_50p_glitched_meas.csv", index=False)
+ 
+ # Set hyperparameters
+ epsilon = 1e-10
+ delta = np.sqrt(0.15)
+ 
+ def calc_error(ia_meas, ia_sim, epsilon, delta):
+     ia_sim = np.maximum(ia_sim, -epsilon + 1e-15) # Ensure ia_sim is not too close to zero
+     ia_meas = np.maximum(ia_meas, -epsilon + 1e-15) # Ensure ia_sim is not too close to zero
+ 
+     # Calculate the log-transformed simulated and measured currents
+     log_I_sim = np.log(1 + ia_sim/epsilon)
+     log_I_meas = np.log(1 + ia_meas/epsilon)
+     error = np.abs(log_I_sim - log_I_meas)
+     
+     # Calculates penalized errors
+     penalized_errors = np.where(error <= delta, error**2, delta**2)
+ 
+     # Return the mean of the penalized errors
+     return np.mean(penalized_errors)
+ 
+ def simulate_and_evaluate(**parameters):
+     for key, value in parameters.items():
+         set_par(f"/diode.{key}", str(value))
+     # Run simulation
+     iccap_func("../idvd_Diamond", "Simulate")
+     # Extract simulated ia
+     ia_sim = Output("../idvd_Diamond/ia").get_val(msb='S')
+     ia_sim = (np.array(ia_sim[("S", "11")][:])).real
+ 
+     # Calculate error
+     error = calc_error(ia_meas, ia_sim, epsilon, delta)
+     
+     return error
+ 
+ path2plot = "../idvd_Diamond/i_vs_v"
+ iccap_func(path2plot , "Display Plot")
+ iccap_func(path2plot , "Autoscale On") 
+ iccap_func(path2plot , "LegendOn")
+ 
+ # Tighten the ranges of the parameters
+ def objective(trial):
+     parameters = {
+          "N": trial.suggest_float("N", 1.12, 1.15),
+          "IS": trial.suggest_float("IS", 5e-25, 5e-24),
+          "RS": trial.suggest_float("RS", 123, 128)
+     }
+     error = simulate_and_evaluate(**parameters)
+     return error
+ 
+ # Load parameters from a JSON file
+ def load_parameters_from_json(file_path):
+     with open(file_path, 'r') as file:
+         parameters = json.load(file)
+     return parameters
+ 
+ optuna.logging.set_verbosity(optuna.logging.INFO)
+ 
+ def create_optuna_study(sampler_behavior=0, seed=seed_value):
+     if sampler_behavior == 1:
+         sampler = optuna.samplers.TPESampler(seed=seed)  # Deterministic behavior with the specified seed
+     else:
+         sampler = optuna.samplers.TPESampler()  # Probabilistic behavior (default)
+ 
+     study = optuna.create_study(directions=['minimize'], sampler=sampler)
+     return study
+ 
+ study = create_optuna_study(sampler_behavior=sampler_behavior, seed=seed_value)
+ 
+ # Start with best parameters found from train/test split
+ file_path_train_test_params= f"{train_test_path}/best_parameters_train_val_split.json"
+ train_test_parameters = load_parameters_from_json(file_path_train_test_params)
+ study.enqueue_trial(train_test_parameters)
+ 
+ study.optimize(objective, n_trials=num_trials)
+ joblib.dump(study, f"{base_path}/diamond_diode_study_50p_glitched.pkl")
+ 
+ # Get the best parameters
+ best_trial = study.best_trial
+ best_params = best_trial.params
+ print("Best trial parameters:", best_params)
+ 
+ # Extract the individual best parameters
+ parameters = {
+     "N": best_params["N"],
+     "IS": best_params["IS"],
+     "RS": best_params["RS"]
+ }
+ 
+ # Evaluate the function with the best parameters
+ error = simulate_and_evaluate(**parameters)
+ print("Error for best trial:", error)
+ 
+ # Save best parameters to a JSON file
+ with open(f"{base_path}/best_parameters_all_data_50p_glitched.json", "w") as json_file:
+     json.dump(best_params, json_file, indent=4)
+ 
+ print("Best parameters from all data saved to best_parameters.json")
+ 
+ file_path = f"{base_path}/diamond_diode_Optuna_50_trials_all_data_50p_glitched.csv"
+ 
+ # Write the results to a CSV file
+ with open(file_path, mode='w', newline='') as file:
+     writer = csv.writer(file)
+     writer.writerow(['Trial', 'Error','Parameters'])
+     for trial in study.trials:
+         writer.writerow([
+             trial.number,
+             trial.value,
+             trial.params
+         ])
+ 
+ print(f'Results saved to {file_path}')
+ 
+ # Simulate best parameters and save sim data
+ ia_sim = Output("../idvd_Diamond/ia").get_val(msb='S')
+ ia_sim = (np.array(ia_sim[("S", "11")][:])).real
+ 
+ df_sim = pd.DataFrame({'va_sim': va, 'ia_sim': ia_sim})
+ df_sim.to_csv(f"{base_path}/diamond_diode_sim_50p_glitched.csv", index=False)
+}
+OPTIMEDIT
+{
+TABLE "More" 0 "770.004"
+{
+element 0 "Rank 1 Flag" "Yes"
+element 0 "Param Delta" " 1.000m"
+element 0 "Param Print" "A"
+element 0 "Error Print" "A"
+element 0 "Sens Print" "I"
+element 0 "Normal Sens" "Yes"
+element 0 "Optim Mode" "L"
+element 0 "Rand Std Dev" " 300.0m"
+element 0 "Rand Reward" " 500.0m"
+element 0 "Rand Penalty" " 500.0m"
+element 0 "Rand Seed" "0"
+element 0 "Rand Iters" "25"
+element 0 "Max Iters" "25"
+}
+TABLE "Input Table" 1 "770.004"
+{
+element 0 "Target" ""
+element 0 "Simulated" ""
+element 0 "Weight" " 1.000 "
+element 0 "Target Min" " 0.000 "
+element 0 "Target Max" " 0.000 "
+element 0 "X Min" " 0.000 "
+element 0 "X Max" " 0.000 "
+element 0 "Curve Min" ""
+element 0 "Curve Max" ""
+element 0 "X Data Ref" ""
+element 0 "Curve Data" ""
+element 0 "Reference SetUp" ""
+}
+TABLE "Param Table" 1 "770.004"
+{
+element 0 "Use" "Yes"
+element 0 "Name" ""
+element 0 "Min" " 1.000f"
+element 0 "Value" ""
+element 0 "Max" " 1.000MEG"
+element 0 "Stored" " 0.000 "
+element 0 "Tuner (L)IN/LO(G)" "G"
+}
+TABLE "Options Table" 0 "770.004"
+{
+element 0 "Y Lower Bnd" " 0.000 "
+element 0 "Y Upper Bnd" " 0.000 "
+element 0 "X Lower Bnd" " 0.000 "
+element 0 "X Upper Bnd" " 0.000 "
+element 0 "Comb Filter" "1"
+element 0 "RMS error" " 10.00m"
+element 0 "Max error" " 10.00m"
+element 0 "Abs Err Flag" "No"
+element 0 "Param Tol" " 1.000m"
+element 0 "Function Tol" " 1.000m"
+element 0 "Max Evals" "100"
+element 0 "Extract Flag" "No"
+}
+PLOTOPTIONS
+ENDPLOTOPTIONS
+}
+HYPTABLE "Step Editor"
+{
+element "Step Name" ""
+element "Step Source" "Local"
+element "Auto Update" "No"
+element "Setup Reference" ""
+element "Step Type (O/T)" "T"
+element "Sim Precondition" "No"
+element "Range Precondition" "N"
+element "Sim Speed" "F"
+element "Plots Per Row" "0"
+element "Optional" "No"
+}
+BLKEDIT "Step Description"
+{
+
+}
+dataset
+{
+datasize COMMON 39 1 1
+type COMMON
+point 0 1 1 0 0
+point 1 1 1 0 0
+point 2 1 1 0 0
+point 3 1 1 0 0
+point 4 1 1 0 0
+point 5 1 1 0 0
+point 6 1 1 0 0
+point 7 1 1 0 0
+point 8 1 1 0 0
+point 9 1 1 0 0
+point 10 1 1 0 0
+point 11 1 1 0 0
+point 12 1 1 0 0
+point 13 1 1 0 0
+point 14 1 1 0 0
+point 15 1 1 0 0
+point 16 1 1 0 0
+point 17 1 1 0 0
+point 18 1 1 0 0
+point 19 1 1 0 0
+point 20 1 1 0 0
+point 21 1 1 0 0
+point 22 1 1 0 0
+point 23 1 1 0 0
+point 24 1 1 0 0
+point 25 1 1 0 0
+point 26 1 1 0 0
+point 27 1 1 0 0
+point 28 1 1 0 0
+point 29 1 1 0 0
+point 30 1 1 0 0
+point 31 1 1 0 0
+point 32 1 1 0 0
+point 33 1 1 0 0
+point 34 1 1 0 0
+point 35 1 1 0 0
+point 36 1 1 0 0
+point 37 1 1 0 0
+point 38 1 1 0 0
+}
+}
+}
+LINK XFORM "DFO_NonRobust_Glitched" "770.004"
+{
+data
+{
+HYPTABLE "Link Transform"
+{
+element "Function" "PythonGlobal"
+}
+BLKEDIT "Program Body"
+{
+ """
+ MIT License
+ 
+ Copyright (c) 2024 Rafael Perez Martinez
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ 
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+ """
+ """
+ This code accompanies the manuscript "Compact Model Parameter Extraction via Derivative-Free Optimization" by Rafael Perez Martinez et al.
+ Paper link: https://arxiv.org/abs/2406.16355
+ Written by Rafael Perez Martinez (Stanford University)
+ """
+ from iccap import iccap_func, get_par, get_var, DVar, Transform, Input, Output, Plot, Setup, df2setup, set_par
+ from iccap import icfuncs as f
+ from iccap import *
+ import itertools
+ import os
+ import numpy as np
+ import matplotlib.pyplot as plt
+ import pandas as pd
+ import optuna
+ import csv
+ import joblib
+ import json
+ from sklearn.model_selection import train_test_split
+ # This example corresponds to Section 3.3 (Diamond Schottky Diode Fitting Example) of the manuscript
+ 
+ # In this transform, we first do a test/train split, train the model, set the correct hyperparameters, and assess the model using test data
+ # The data for this particular example has been corrupted on purpose
+ # We demonstrate that the non-robust loss function yields in a poor fit
+ 
+ # Note: This method is probabilistic (i.e., you get a different result everytime you run it)
+ # However, you can make it deterministic by changing the sampler_behavior to 1 and adding a seed_value
+ 
+ sampler_behavior = 1  # 0 for probabilistic and 1 for deterministic
+ seed_value = 3        # If determinisitc, define the seed value here
+ num_trials = 250
+ 
+ # Change directory accordingly
+ base_path = 'D:/Users/rafap/Desktop/DFO_Parameter_Extraction/Diode_ex/Non_Robust_Glitched_Train_Val_Split'
+ va = Input("../idvd_Diamond/va").get_val(msb='M')
+ va = (np.array(va[("M", "11")][:])).real
+ 
+ ia_meas = Output("../idvd_Diamond/ia").get_val(msb='M')
+ ia_meas = (np.array(ia_meas[("M", "11")][:])).real
+ 
+ # Set the percentage of data you want to glitch
+ glitch_percentage = 0.50
+ rng = np.random.RandomState(39)
+ 
+ num_glitches = int(len(ia_meas) * glitch_percentage)
+ 
+ glitch_inds = rng.choice(ia_meas.size, size=num_glitches, replace=False)
+ np.random.seed(39)  # Set the random seed for reproducibility
+ glitch_vals = ia_meas[glitch_inds] * np.ones(num_glitches) * np.random.choice([0.01, 100], num_glitches)
+ ia_meas[glitch_inds] = glitch_vals  # Apply the glitches
+ 
+ df_glitched = pd.DataFrame({'va': va, 'ia_meas': ia_meas})
+ df_glitched.to_csv(f"{base_path}/diamond_diode_50p_glitched_meas.csv", index=False)
+ 
+ data_len = len(va)  
+ ind = np.arange(data_len)
+ train_ind, test_ind = train_test_split(ind, test_size=0.20, random_state=42, shuffle=True)
+ 
+ train_ind = np.sort(train_ind)
+ test_ind = np.sort(test_ind)
+ 
+ va_train = va[train_ind]
+ ia_meas_train = ia_meas[train_ind]
+ va_test = va[test_ind]
+ ia_meas_test = ia_meas[test_ind]
+ 
+ df_train = pd.DataFrame({'va_train': va_train, 'ia_meas_train': ia_meas_train})
+ df_train.to_csv(f"{base_path}/diamond_diode_meas_50p_glitched_train.csv", index=False)
+ 
+ df_test = pd.DataFrame({'va_test': va_test, 'ia_meas_test': ia_meas_test})
+ df_test.to_csv(f"{base_path}/diamond_diode_meas_50p_glitched_test.csv", index=False)
+ 
+ # Set hyperparameters
+ epsilon = 1e-10
+ 
+ def calc_error(ia_meas, ia_sim, epsilon):
+     ia_sim = np.maximum(ia_sim, -epsilon + 1e-15) # Ensure ia_sim is not too close to zero
+     ia_meas = np.maximum(ia_meas, -epsilon + 1e-15) # Ensure ia_sim is not too close to zero
+ 
+     # Calculate the log-transformed simulated and measured currents
+     log_I_sim = np.log(1 + ia_sim/epsilon)
+     log_I_meas = np.log(1 + ia_meas/epsilon)
+     error = np.abs(log_I_sim - log_I_meas)
+     # Return the mean of the penalized errors
+     return np.mean(error**2)
+ 
+ def simulate_and_evaluate(**parameters):
+     for key, value in parameters.items():
+         set_par(f"/diode.{key}", str(value))
+     # Run simulation
+     iccap_func("../idvd_Diamond", "Simulate")
+     # Extract simulated ia
+     ia_sim = Output("../idvd_Diamond/ia").get_val(msb='S')
+     ia_sim = (np.array(ia_sim[("S", "11")][:])).real
+ 
+     ia_sim_train = ia_sim[train_ind]
+     ia_sim_test = ia_sim[test_ind]
+ 
+     # Calculate error
+     train_error = calc_error(ia_meas_train, ia_sim_train, epsilon)
+     test_error = calc_error(ia_meas_test, ia_sim_test, epsilon)
+ 
+     return train_error, test_error
+ 
+ path2plot = "../idvd_Diamond/i_vs_v"
+ iccap_func(path2plot , "Display Plot")
+ iccap_func(path2plot , "Autoscale On") 
+ iccap_func(path2plot , "LegendOn")
+ 
+ def objective(trial):
+     # Define the parameters to optimize
+     parameters = {
+          "N": trial.suggest_float("N", 0.5, 1.5),
+          "IS": trial.suggest_float("IS", 1e-25, 1e-22, log=True),
+          "RS": trial.suggest_float("RS", 100, 150)
+     }
+     train_error, test_error = simulate_and_evaluate(**parameters)
+     trial.set_user_attr('test_error', test_error)    
+     return train_error
+ 
+ optuna.logging.set_verbosity(optuna.logging.INFO)
+ 
+ def create_optuna_study(sampler_behavior=0, seed=seed_value):
+     if sampler_behavior == 1:
+         sampler = optuna.samplers.TPESampler(seed=seed)  # Deterministic behavior with the specified seed
+     else:
+         sampler = optuna.samplers.TPESampler()  # Probabilistic behavior (default)
+ 
+     study = optuna.create_study(directions=['minimize'], sampler=sampler)
+     return study
+ 
+ study = create_optuna_study(sampler_behavior=sampler_behavior, seed=seed_value)
+ 
+ study.optimize(objective, n_trials=num_trials)
+ joblib.dump(study, f"{base_path}/diamond_diode_study_50p_glitched_non_robust_train_val_split.pkl")
+ 
+ # Get the best parameters
+ best_trial = study.best_trial
+ best_params = best_trial.params
+ print("Best trial parameters:", best_params)
+ 
+ # Extract the individual best parameters
+ parameters = {
+     "N": best_params["N"],
+     "IS": best_params["IS"],
+     "RS": best_params["RS"]
+ }
+ 
+ # Evaluate the function with the best parameters
+ train_error, test_error = simulate_and_evaluate(**parameters)
+ print("Train Error for best trial:", train_error)
+ print("Test Error for best trial:", test_error)
+ 
+ # Save best parameters to a JSON file
+ with open(f"{base_path}/best_parameters_non_robust_train_val_split.json", "w") as json_file:
+     json.dump(best_params, json_file, indent=4)
+ 
+ print("Best parameters from train/val split saved to best_parameters.json")
+ 
+ file_path = f"{base_path}/diamond_diode_Optuna_250_trials_50p_glitched_non_robust_train_val_split.csv"
+ 
+ # Write the results to a CSV file
+ with open(file_path, mode='w', newline='') as file:
+     writer = csv.writer(file)
+     writer.writerow(['Trial', 'Train Error', 'Test Error', 'Parameters'])
+     for trial in study.trials:
+         writer.writerow([
+             trial.number,
+             trial.value,
+             trial.user_attrs.get('test_error'),
+             trial.params
+         ])
+ 
+ print(f'Results saved to {file_path}')
+ 
+ # Simulate best parameters and save sim data
+ ia_sim = Output("../idvd_Diamond/ia").get_val(msb='S')
+ ia_sim = (np.array(ia_sim[("S", "11")][:])).real
+ 
+ df_sim = pd.DataFrame({'va_sim': va, 'ia_sim': ia_sim})
+ df_sim.to_csv(f"{base_path}/diamond_diode_sim_50p_glitched_non_robust_train_val_split.csv", index=False)
+}
+OPTIMEDIT
+{
+TABLE "More" 0 "770.004"
+{
+element 0 "Rank 1 Flag" "Yes"
+element 0 "Param Delta" " 1.000m"
+element 0 "Param Print" "A"
+element 0 "Error Print" "A"
+element 0 "Sens Print" "I"
+element 0 "Normal Sens" "Yes"
+element 0 "Optim Mode" "L"
+element 0 "Rand Std Dev" " 300.0m"
+element 0 "Rand Reward" " 500.0m"
+element 0 "Rand Penalty" " 500.0m"
+element 0 "Rand Seed" "0"
+element 0 "Rand Iters" "25"
+element 0 "Max Iters" "25"
+}
+TABLE "Input Table" 1 "770.004"
+{
+element 0 "Target" ""
+element 0 "Simulated" ""
+element 0 "Weight" " 1.000 "
+element 0 "Target Min" " 0.000 "
+element 0 "Target Max" " 0.000 "
+element 0 "X Min" " 0.000 "
+element 0 "X Max" " 0.000 "
+element 0 "Curve Min" ""
+element 0 "Curve Max" ""
+element 0 "X Data Ref" ""
+element 0 "Curve Data" ""
+element 0 "Reference SetUp" ""
+}
+TABLE "Param Table" 1 "770.004"
+{
+element 0 "Use" "Yes"
+element 0 "Name" ""
+element 0 "Min" " 1.000f"
+element 0 "Value" ""
+element 0 "Max" " 1.000MEG"
+element 0 "Stored" " 0.000 "
+element 0 "Tuner (L)IN/LO(G)" "G"
+}
+TABLE "Options Table" 0 "770.004"
+{
+element 0 "Y Lower Bnd" " 0.000 "
+element 0 "Y Upper Bnd" " 0.000 "
+element 0 "X Lower Bnd" " 0.000 "
+element 0 "X Upper Bnd" " 0.000 "
+element 0 "Comb Filter" "1"
+element 0 "RMS error" " 10.00m"
+element 0 "Max error" " 10.00m"
+element 0 "Abs Err Flag" "No"
+element 0 "Param Tol" " 1.000m"
+element 0 "Function Tol" " 1.000m"
+element 0 "Max Evals" "100"
+element 0 "Extract Flag" "No"
+}
+PLOTOPTIONS
+ENDPLOTOPTIONS
+}
+HYPTABLE "Step Editor"
+{
+element "Step Name" ""
+element "Step Source" "Local"
+element "Auto Update" "No"
+element "Setup Reference" ""
+element "Step Type (O/T)" "T"
+element "Sim Precondition" "No"
+element "Range Precondition" "N"
+element "Sim Speed" "F"
+element "Plots Per Row" "0"
+element "Optional" "No"
+}
+BLKEDIT "Step Description"
+{
+
+}
+dataset
+{
+datasize COMMON 39 1 1
+type COMMON
+point 0 1 1 0 0
+point 1 1 1 0 0
+point 2 1 1 0 0
+point 3 1 1 0 0
+point 4 1 1 0 0
+point 5 1 1 0 0
+point 6 1 1 0 0
+point 7 1 1 0 0
+point 8 1 1 0 0
+point 9 1 1 0 0
+point 10 1 1 0 0
+point 11 1 1 0 0
+point 12 1 1 0 0
+point 13 1 1 0 0
+point 14 1 1 0 0
+point 15 1 1 0 0
+point 16 1 1 0 0
+point 17 1 1 0 0
+point 18 1 1 0 0
+point 19 1 1 0 0
+point 20 1 1 0 0
+point 21 1 1 0 0
+point 22 1 1 0 0
+point 23 1 1 0 0
+point 24 1 1 0 0
+point 25 1 1 0 0
+point 26 1 1 0 0
+point 27 1 1 0 0
+point 28 1 1 0 0
+point 29 1 1 0 0
+point 30 1 1 0 0
+point 31 1 1 0 0
+point 32 1 1 0 0
+point 33 1 1 0 0
+point 34 1 1 0 0
+point 35 1 1 0 0
+point 36 1 1 0 0
+point 37 1 1 0 0
+point 38 1 1 0 0
+}
+}
+}
+LINK XFORM "DFO_NonRobust_Glitched_All_Data" "770.004"
+{
+data
+{
+HYPTABLE "Link Transform"
+{
+element "Function" "PythonGlobal"
+}
+BLKEDIT "Program Body"
+{
+ """
+ MIT License
+ 
+ Copyright (c) 2024 Rafael Perez Martinez
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ 
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ 
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+ """
+ """
+ This code accompanies the manuscript "Compact Model Parameter Extraction via Derivative-Free Optimization" by Rafael Perez Martinez et al.
+ Paper link: https://arxiv.org/abs/2406.16355
+ Written by Rafael Perez Martinez (Stanford University)
+ """
+ from iccap import iccap_func, get_par, get_var, DVar, Transform, Input, Output, Plot, Setup, df2setup, set_par
+ from iccap import icfuncs as f
+ from iccap import *
+ import itertools
+ import os
+ import numpy as np
+ import matplotlib.pyplot as plt
+ import pandas as pd
+ import optuna
+ import csv
+ import joblib
+ import json
+ from sklearn.model_selection import train_test_split
+ # This example corresponds to Section 3.3 (Diamond Schottky Diode Fitting Example) of the manuscript
+ 
+ # Having found a good set of parameters using the previous transform, we re-train the model using all data to further improve the fit
+ # This time, the number of trials will be much less than the first step since we have tighten the range of the parameters
+ 
+ # Important: Tighten the ranges of the parameters in Lines 112-118
+ # Note: This method is probabilistic (i.e., you get a different result everytime you run it)
+ # However, you can make it deterministic by changing the sampler_behavior to 1 and adding a seed_value
+ 
+ sampler_behavior = 1  # 0 for probabilistic and 1 for deterministic
+ seed_value = 42       # If determinisitc, define the seed value here
+ num_trials = 50
+ 
+ # Change directories accordingly
+ base_path = 'D:/Users/rafap/Desktop/DFO_Parameter_Extraction/Diode_ex/Non_Robust_Glitched_All_Data'
+ train_test_path = 'D:/Users/rafap/Desktop/DFO_Parameter_Extraction/Diode_ex/Non_Robust_Glitched_Train_Val_Split'
+ 
+ va = Input("../idvd_Diamond/va").get_val(msb='M')
+ va = (np.array(va[("M", "11")][:])).real
+ 
+ ia_meas = Output("../idvd_Diamond/ia").get_val(msb='M')
+ ia_meas = (np.array(ia_meas[("M", "11")][:])).real
+ 
+ # Set the percentage of data you want to glitch
+ glitch_percentage = 0.50
+ rng = np.random.RandomState(39)
+ 
+ num_glitches = int(len(ia_meas) * glitch_percentage)
+ 
+ glitch_inds = rng.choice(ia_meas.size, size=num_glitches, replace=False)
+ np.random.seed(39)  # Set the random seed for reproducibility
+ glitch_vals = ia_meas[glitch_inds] * np.ones(num_glitches) * np.random.choice([0.01, 100], num_glitches)
+ ia_meas[glitch_inds] = glitch_vals  # Apply the glitches
+ 
+ df_glitched = pd.DataFrame({'va': va, 'ia_meas': ia_meas})
+ df_glitched.to_csv(f"{base_path}/diamond_diode_50p_glitched_meas.csv", index=False)
+ 
+ # Set hyperparameters
+ epsilon = 1e-10
+ 
+ def calc_error(ia_meas, ia_sim, epsilon):
+     ia_sim = np.maximum(ia_sim, -epsilon + 1e-15) # Ensure ia_sim is not too close to zero
+     ia_meas = np.maximum(ia_meas, -epsilon + 1e-15) # Ensure ia_sim is not too close to zero
+ 
+     # Calculate the log-transformed simulated and measured currents
+     log_I_sim = np.log(1 + ia_sim/epsilon)
+     log_I_meas = np.log(1 + ia_meas/epsilon)
+     error = np.abs(log_I_sim - log_I_meas)
+     # Return the mean of the penalized errors
+     return np.mean(error**2)
+ 
+ def simulate_and_evaluate(**parameters):
+     for key, value in parameters.items():
+         set_par(f"/diode.{key}", str(value))
+     # Run simulation
+     iccap_func("../idvd_Diamond", "Simulate")
+     # Extract simulated ia
+     ia_sim = Output("../idvd_Diamond/ia").get_val(msb='S')
+     ia_sim = (np.array(ia_sim[("S", "11")][:])).real
+ 
+     # Calculate error
+     error = calc_error(ia_meas, ia_sim, epsilon)
+     
+     return error
+ 
+ path2plot = "../idvd_Diamond/i_vs_v"
+ iccap_func(path2plot , "Display Plot")
+ iccap_func(path2plot , "Autoscale On") 
+ iccap_func(path2plot , "LegendOn")
+ 
+ # Tighten the ranges of the parameters
+ def objective(trial):
+     parameters = {
+          "N": trial.suggest_float("N", 0.95, 1.2),
+          "IS": trial.suggest_float("IS", 1e-25, 1e-24),
+          "RS": trial.suggest_float("RS", 130, 200)
+     }
+     error = simulate_and_evaluate(**parameters)
+     return error
+ 
+ # Load parameters from a JSON file
+ def load_parameters_from_json(file_path):
+     with open(file_path, 'r') as file:
+         parameters = json.load(file)
+     return parameters
+ 
+ optuna.logging.set_verbosity(optuna.logging.INFO)
+ 
+ def create_optuna_study(sampler_behavior=0, seed=seed_value):
+     if sampler_behavior == 1:
+         sampler = optuna.samplers.TPESampler(seed=seed)  # Deterministic behavior with the specified seed
+     else:
+         sampler = optuna.samplers.TPESampler()  # Probabilistic behavior (default)
+ 
+     study = optuna.create_study(directions=['minimize'], sampler=sampler)
+     return study
+ 
+ study = create_optuna_study(sampler_behavior=sampler_behavior, seed=seed_value)
+ 
+ # Start with best parameters found from train/test split
+ file_path_train_test_params= f"{train_test_path}/best_parameters_non_robust_train_val_split.json"
+ train_test_parameters = load_parameters_from_json(file_path_train_test_params)
+ study.enqueue_trial(train_test_parameters)
+ 
+ study.optimize(objective, n_trials=num_trials)
+ joblib.dump(study, f"{base_path}/diamond_diode_study_50p_glitched_non_robust.pkl")
+ 
+ # Get the best parameters
+ best_trial = study.best_trial
+ best_params = best_trial.params
+ print("Best trial parameters:", best_params)
+ 
+ # Extract the individual best parameters
+ parameters = {
+     "N": best_params["N"],
+     "IS": best_params["IS"],
+     "RS": best_params["RS"]
+ }
+ 
+ # Evaluate the function with the best parameters
+ error = simulate_and_evaluate(**parameters)
+ print("Error for best trial:", error)
+ 
+ # Save best parameters to a JSON file
+ with open(f"{base_path}/best_parameters_all_data_50p_glitched_non_robust.json", "w") as json_file:
+     json.dump(best_params, json_file, indent=4)
+ 
+ print("Best parameters from all data saved to best_parameters.json")
+ 
+ file_path = f"{base_path}/diamond_diode_Optuna_50_trials_all_data_50p_glitched_non_robust.csv"
+ 
+ # Write the results to a CSV file
+ with open(file_path, mode='w', newline='') as file:
+     writer = csv.writer(file)
+     writer.writerow(['Trial', 'Error','Parameters'])
+     for trial in study.trials:
+         writer.writerow([
+             trial.number,
+             trial.value,
+             trial.params
+         ])
+ 
+ print(f'Results saved to {file_path}')
+ 
+ # Simulate best parameters and save sim data
+ ia_sim = Output("../idvd_Diamond/ia").get_val(msb='S')
+ ia_sim = (np.array(ia_sim[("S", "11")][:])).real
+ 
+ df_sim = pd.DataFrame({'va_sim': va, 'ia_sim': ia_sim})
+ df_sim.to_csv(f"{base_path}/diamond_diode_sim_50p_glitched_non_robust.csv", index=False)
+}
+OPTIMEDIT
+{
+TABLE "More" 0 "770.004"
+{
+element 0 "Rank 1 Flag" "Yes"
+element 0 "Param Delta" " 1.000m"
+element 0 "Param Print" "A"
+element 0 "Error Print" "A"
+element 0 "Sens Print" "I"
+element 0 "Normal Sens" "Yes"
+element 0 "Optim Mode" "L"
+element 0 "Rand Std Dev" " 300.0m"
+element 0 "Rand Reward" " 500.0m"
+element 0 "Rand Penalty" " 500.0m"
+element 0 "Rand Seed" "0"
+element 0 "Rand Iters" "25"
+element 0 "Max Iters" "25"
+}
+TABLE "Input Table" 1 "770.004"
+{
+element 0 "Target" ""
+element 0 "Simulated" ""
+element 0 "Weight" " 1.000 "
+element 0 "Target Min" " 0.000 "
+element 0 "Target Max" " 0.000 "
+element 0 "X Min" " 0.000 "
+element 0 "X Max" " 0.000 "
+element 0 "Curve Min" ""
+element 0 "Curve Max" ""
+element 0 "X Data Ref" ""
+element 0 "Curve Data" ""
+element 0 "Reference SetUp" ""
+}
+TABLE "Param Table" 1 "770.004"
+{
+element 0 "Use" "Yes"
+element 0 "Name" ""
+element 0 "Min" " 1.000f"
+element 0 "Value" ""
+element 0 "Max" " 1.000MEG"
+element 0 "Stored" " 0.000 "
+element 0 "Tuner (L)IN/LO(G)" "G"
+}
+TABLE "Options Table" 0 "770.004"
+{
+element 0 "Y Lower Bnd" " 0.000 "
+element 0 "Y Upper Bnd" " 0.000 "
+element 0 "X Lower Bnd" " 0.000 "
+element 0 "X Upper Bnd" " 0.000 "
+element 0 "Comb Filter" "1"
+element 0 "RMS error" " 10.00m"
+element 0 "Max error" " 10.00m"
+element 0 "Abs Err Flag" "No"
+element 0 "Param Tol" " 1.000m"
+element 0 "Function Tol" " 1.000m"
+element 0 "Max Evals" "100"
+element 0 "Extract Flag" "No"
+}
+PLOTOPTIONS
+ENDPLOTOPTIONS
+}
+HYPTABLE "Step Editor"
+{
+element "Step Name" ""
+element "Step Source" "Local"
+element "Auto Update" "No"
+element "Setup Reference" ""
+element "Step Type (O/T)" "T"
+element "Sim Precondition" "No"
+element "Range Precondition" "N"
+element "Sim Speed" "F"
+element "Plots Per Row" "0"
+element "Optional" "No"
+}
+BLKEDIT "Step Description"
+{
+
+}
+dataset
+{
+datasize COMMON 39 1 1
+type COMMON
+point 0 1 1 0 0
+point 1 1 1 0 0
+point 2 1 1 0 0
+point 3 1 1 0 0
+point 4 1 1 0 0
+point 5 1 1 0 0
+point 6 1 1 0 0
+point 7 1 1 0 0
+point 8 1 1 0 0
+point 9 1 1 0 0
+point 10 1 1 0 0
+point 11 1 1 0 0
+point 12 1 1 0 0
+point 13 1 1 0 0
+point 14 1 1 0 0
+point 15 1 1 0 0
+point 16 1 1 0 0
+point 17 1 1 0 0
+point 18 1 1 0 0
+point 19 1 1 0 0
+point 20 1 1 0 0
+point 21 1 1 0 0
+point 22 1 1 0 0
+point 23 1 1 0 0
+point 24 1 1 0 0
+point 25 1 1 0 0
+point 26 1 1 0 0
+point 27 1 1 0 0
+point 28 1 1 0 0
+point 29 1 1 0 0
+point 30 1 1 0 0
+point 31 1 1 0 0
+point 32 1 1 0 0
+point 33 1 1 0 0
+point 34 1 1 0 0
+point 35 1 1 0 0
+point 36 1 1 0 0
+point 37 1 1 0 0
+point 38 1 1 0 0
+}
+}
+}
+LINK PLOT "i_vs_v" "770.004"
+{
+View plot_window 0 "1370,494,13844,11365,{AUTO|XY| 1.200 , 2.200 ,5,4: 100.0n, 10.00m,5,9: 0.000 , 1.000 ,4,5}"
+View draw_ds 1 "B,0,0"
+TABLE "Plot Options" "770.004"
+{
+TABLE "Plot Settings" "770.004"
+{
+element 0 "Multicolor" "Display all curves with the configured trace color" "A"
+element 0 "Measured Trace" "Symbols Only" "A"
+element 0 "Simulated Trace" "Solid Line" "A"
+element 0 "Transform Result" "Solid Line" "A"
+element 0 "Error Trace" "Solid Line" "A"
+element 0 "Show Title" "Yes" "A"
+element 0 "Show Multiplot Header" "Yes" "A"
+element 0 "Show Multiplot Footer" "Yes" "A"
+element 0 "Show Header" "Yes" "A"
+element 0 "Show Footer" "Yes" "A"
+element 0 "Show Legend" "No" "A"
+element 0 "White Background" "Yes" "N"
+element 0 "Show Area Tools" "Yes" "A"
+element 0 "Enable Annotation" "No" "A"
+element 0 "Annotation Location" "Upper Left" "A"
+element 0 "PEL Control" "No" "A"
+element 0 "Annotation Text" ""
+element 0 "PEL Transform" ""
+element 0 "PEL Call Type" "1"
+element 0 "Font Type" "Arial For CAE" "A"
+element 0 "Font Size" "12.00" "A"
+element 0 "Annotation Font Name" "Arial For CAE" "A"
+element 0 "Annotation Font Sz" "9.000" "A"
+element 0 "Symbol Size" "4.000" "A"
+element 0 "Plot Selection Callback" "" "A"
+}
+}
+data
+{
+HYPTABLE "Edit plot Info"
+{
+element "Report Type" "XY GRAPH"
+}
+HYPTABLE "Edit Plot Def"
+{
+element "X Data" "va"
+element "# of Traces" "8"
+element "Curve Data" ""
+element "Header" ""
+element "Footer" ""
+element "X Axis Type" "LINEAR"
+element "Y Axis Type" "LOG10"
+element "Y2 Axis Type" "LINEAR"
+element "Y2 Data" ""
+element "Y Data 0" "ia.s"
+element "Y Data 1" "ia.m"
+element "Y Data 2" ""
+element "Y Data 3" ""
+element "Y Data 4" ""
+element "Y Data 5" ""
+element "Y Data 6" ""
+element "Y Data 7" ""
+}
+PlotOptimizerOpt Enable 0
+PlotError Displayed 1 
+}
+member OUT "ia"
+member SWEEP "va"
+}
+data "770.004"
+{
+TABLE "HP4142.7.26" "770.004"
+{
+element 0 "Use User Sweep" "No"
+element 0 "Hold Time" " 0.000 "
+element 0 "Delay Time" " 0.000 "
+element 0 "Integ Time" "S"
+element 0 "Range" "0"
+element 0 "Power Compliance" " 0.000 "
+element 0 "SMU Filters ON" "Yes"
+element 0 "Pulse Unit" ""
+element 0 "Pulse Base" " 0.000 "
+element 0 "Pulse Width" " 1.000m"
+element 0 "Pulse Period" " 10.00m"
+element 0 "Module Control" ""
+element 0 "Delay for timeouts" " 0.000 "
+element 0 "Init Command" ""
+}
+}
+}
+}
+}
