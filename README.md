@@ -8,4 +8,14 @@ In this paper, we address the problem of compact model parameter extraction to s
 
 ## Prerequisites
 
-The examples are performed using [Keysight EDA Device Modeling](http://www.keysight.com/find/device-modeling) by simply running a transform. A license can obtained directly through Keysight.
+The examples in this repository can be run using:
+
+1) [Keysight EDA Device Modeling](http://www.keysight.com/find/device-modeling) by running a transform. Note that a license is required, which can obtained directly through Keysight.
+2) [Ngspice](https://ngspice.sourceforge.io/) (an open-source SPICE circuit simulator) using a Jupyter Notebook through Google Colab.
+
+For both options, it is necessary to install [Optuna](https://optuna.org/) (a hyperparameter optimization framework).
+
+You can install Optuna via pip:
+
+```sh
+$ pip install optuna
