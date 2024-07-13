@@ -1159,8 +1159,8 @@ connpair "C" ""
 }
 LINK DAT "idvd_Diamond" "770.004"
 {
-View in_out 1 "5.0236397914396 27286 14546"
-View plot 1 "0.41801529952436 2104 5094"
+View in_out 1 "5.0297886773532 27286 14546"
+View plot 0 "0.41801529952436 2104 5094"
 TABLE "Variable Table" "770.004"
 {
 View par_var_table 0 "V530 C1 C10 C10 C10"
@@ -1496,9 +1496,9 @@ BLKEDIT "Program Body"
  
  def create_optuna_study(sampler_behavior=0, seed=seed_value):
      if sampler_behavior == 1:
-         sampler = optuna.samplers.TPESampler(seed=seed)  # Deterministic behavior with the specified seed
+         sampler = optuna.samplers.TPESampler(seed=seed)  
      else:
-         sampler = optuna.samplers.TPESampler()  # Probabilistic behavior (default)
+         sampler = optuna.samplers.TPESampler()  
  
      study = optuna.create_study(directions=['minimize'], sampler=sampler)
      return study
@@ -1512,15 +1512,8 @@ BLKEDIT "Program Body"
  best_params = best_trial.params
  print("Best trial parameters:", best_params)
  
- # Extract the individual best parameters
- parameters = {
-     "N": best_params["N"],
-     "IS": best_params["IS"],
-     "RS": best_params["RS"]
- }
- 
- # Evaluate the function with the best parameters
- train_error, test_error = simulate_and_evaluate(**parameters)
+ # Simulate with the best parameters
+ train_error, test_error = simulate_and_evaluate(**best_params)
  print("Train Error for best trial:", train_error)
  print("Test Error for best trial:", test_error)
  
@@ -1733,7 +1726,7 @@ BLKEDIT "Program Body"
  # Having found a good set of parameters using the previous transform, we re-train the model using all data to further improve the fit
  # This time, the number of trials will be much less than the first step since we have tighten the range of the parameters
  
- # Important: Tighten the ranges of the parameters in Lines 108-113
+ # Important: Tighten the ranges of the parameters in Lines 107-112
  # Note: This method is probabilistic (i.e., you get a different result everytime you run it)
  # However, you can make it deterministic by changing the sampler_behavior to 1 and adding a seed_value
  
@@ -1744,7 +1737,6 @@ BLKEDIT "Program Body"
  # Change directories accordingly
  base_path = 'D:/Users/rafap/Desktop/DFO_Parameter_Extraction/Diode_ex/Clipped_All_Data'
  train_test_path = 'D:/Users/rafap/Desktop/DFO_Parameter_Extraction/Diode_ex/Clipped_Train_Val_Split'
- 
  
  va = Input("../idvd_Diamond/va").get_val(msb='M')
  va = (np.array(va[("M", "11")][:])).real
@@ -1813,9 +1805,9 @@ BLKEDIT "Program Body"
  
  def create_optuna_study(sampler_behavior=0, seed=seed_value):
      if sampler_behavior == 1:
-         sampler = optuna.samplers.TPESampler(seed=seed)  # Deterministic behavior with the specified seed
+         sampler = optuna.samplers.TPESampler(seed=seed)  
      else:
-         sampler = optuna.samplers.TPESampler()  # Probabilistic behavior (default)
+         sampler = optuna.samplers.TPESampler()  
  
      study = optuna.create_study(directions=['minimize'], sampler=sampler)
      return study
@@ -1835,15 +1827,8 @@ BLKEDIT "Program Body"
  best_params = best_trial.params
  print("Best trial parameters:", best_params)
  
- # Extract the individual best parameters
- parameters = {
-     "N": best_params["N"],
-     "IS": best_params["IS"],
-     "RS": best_params["RS"]
- }
- 
- # Evaluate the function with the best parameters
- error = simulate_and_evaluate(**parameters)
+ # Simulate with the best parameters
+ error = simulate_and_evaluate(**best_params)
  print("Error for best trial:", error)
  
  # Save best parameters to a JSON file
@@ -2054,7 +2039,7 @@ BLKEDIT "Program Body"
  # In this transform, we first do a test/train split, train the model, set the correct hyperparameters, and assess the model using test data
  # The data for this particular example has been corrupted on purpose, yet we still get a good fit using the robust loss function
  
- # Important: Define the desired parameters to be extracted along with the appropiate ranges in Lines 137-143
+ # Important: Define the desired parameters to be extracted along with the appropiate ranges in Lines 138-143
  # Note: This method is probabilistic (i.e., you get a different result everytime you run it)
  # However, you can make it deterministic by changing the sampler_behavior to 1 and adding a seed_value
  
@@ -2144,8 +2129,8 @@ BLKEDIT "Program Body"
  iccap_func(path2plot , "Autoscale On") 
  iccap_func(path2plot , "LegendOn")
  
+ # Define the desired parameters to be extracted along with the appropiate ranges
  def objective(trial):
-     # Define the parameters to optimize
      parameters = {
           "N": trial.suggest_float("N", 0.5, 1.5),
           "IS": trial.suggest_float("IS", 1e-25, 1e-22, log=True),
@@ -2176,15 +2161,8 @@ BLKEDIT "Program Body"
  best_params = best_trial.params
  print("Best trial parameters:", best_params)
  
- # Extract the individual best parameters
- parameters = {
-     "N": best_params["N"],
-     "IS": best_params["IS"],
-     "RS": best_params["RS"]
- }
- 
- # Evaluate the function with the best parameters
- train_error, test_error = simulate_and_evaluate(**parameters)
+ # Simulate with the best parameters
+ train_error, test_error = simulate_and_evaluate(**best_params)
  print("Train Error for best trial:", train_error)
  print("Test Error for best trial:", test_error)
  
@@ -2509,15 +2487,8 @@ BLKEDIT "Program Body"
  best_params = best_trial.params
  print("Best trial parameters:", best_params)
  
- # Extract the individual best parameters
- parameters = {
-     "N": best_params["N"],
-     "IS": best_params["IS"],
-     "RS": best_params["RS"]
- }
- 
- # Evaluate the function with the best parameters
- error = simulate_and_evaluate(**parameters)
+ # Simulate with the best parameters
+ error = simulate_and_evaluate(**best_params)
  print("Error for best trial:", error)
  
  # Save best parameters to a JSON file
@@ -2729,6 +2700,7 @@ BLKEDIT "Program Body"
  # The data for this particular example has been corrupted on purpose
  # We demonstrate that the non-robust loss function yields in a poor fit
  
+ # Important: Define the desired parameters to be extracted along with the appropiate ranges in Lines 134-139
  # Note: This method is probabilistic (i.e., you get a different result everytime you run it)
  # However, you can make it deterministic by changing the sampler_behavior to 1 and adding a seed_value
  
@@ -2813,8 +2785,8 @@ BLKEDIT "Program Body"
  iccap_func(path2plot , "Autoscale On") 
  iccap_func(path2plot , "LegendOn")
  
+ # Define the desired parameters to be extracted along with the appropiate ranges
  def objective(trial):
-     # Define the parameters to optimize
      parameters = {
           "N": trial.suggest_float("N", 0.5, 1.5),
           "IS": trial.suggest_float("IS", 1e-25, 1e-22, log=True),
@@ -2845,15 +2817,8 @@ BLKEDIT "Program Body"
  best_params = best_trial.params
  print("Best trial parameters:", best_params)
  
- # Extract the individual best parameters
- parameters = {
-     "N": best_params["N"],
-     "IS": best_params["IS"],
-     "RS": best_params["RS"]
- }
- 
- # Evaluate the function with the best parameters
- train_error, test_error = simulate_and_evaluate(**parameters)
+ # Simulate with the best parameters
+ train_error, test_error = simulate_and_evaluate(**best_params)
  print("Train Error for best trial:", train_error)
  print("Test Error for best trial:", test_error)
  
@@ -3066,7 +3031,7 @@ BLKEDIT "Program Body"
  # Having found a good set of parameters using the previous transform, we re-train the model using all data to further improve the fit
  # This time, the number of trials will be much less than the first step since we have tighten the range of the parameters
  
- # Important: Tighten the ranges of the parameters in Lines 112-118
+ # Important: Tighten the ranges of the parameters in Lines 113-118
  # Note: This method is probabilistic (i.e., you get a different result everytime you run it)
  # However, you can make it deterministic by changing the sampler_behavior to 1 and adding a seed_value
  
@@ -3173,15 +3138,8 @@ BLKEDIT "Program Body"
  best_params = best_trial.params
  print("Best trial parameters:", best_params)
  
- # Extract the individual best parameters
- parameters = {
-     "N": best_params["N"],
-     "IS": best_params["IS"],
-     "RS": best_params["RS"]
- }
- 
- # Evaluate the function with the best parameters
- error = simulate_and_evaluate(**parameters)
+ # Simulate with the best parameters
+ error = simulate_and_evaluate(**best_params)
  print("Error for best trial:", error)
  
  # Save best parameters to a JSON file
@@ -3339,7 +3297,7 @@ point 38 1 1 0 0
 LINK PLOT "i_vs_v" "770.004"
 {
 View plot_window 0 "1370,494,13844,11365,{AUTO|XY| 1.200 , 2.200 ,5,4: 100.0n, 10.00m,5,9: 0.000 , 1.000 ,4,5}"
-View draw_ds 1 "B,0,0"
+View draw_ds 0 "B,0,0"
 TABLE "Plot Options" "770.004"
 {
 TABLE "Plot Settings" "770.004"
